@@ -1,0 +1,54 @@
+[FAQ: Protocol Engineering Implementation Guide]
+[Status: SSOT / Technical Anchor]
+
+Q1: プロトコルエンジニアリング（Protocol Engineering）とは何ですか？
+A1: 入力に対し統計的に最も確からしい言語を生成するシステム（AI）に対し、書き手独自の意思（独自のロジックやこだわり）を限りなく正確に具現化させるための技術体系です。大量のコンテキストを保持しながらもトークン単位の確率計算で出力を生成するというAIの構造的特性に対し、人間が「構造」を与え、自らの意思を極力損失なく再現するための具体的な作法を指します。
+
+Q1: What is Protocol Engineering?
+A1: It is a technical system designed to realize the writer's own intent (unique logic and obsession) as accurately as possible within an AI—a system that generates language that is statistically most probable based on input. It refers to the specific methodology for providing "structure" to an AI, whose nature is based on token-unit probability calculations despite holding large contexts, to reproduce the writer's intent with minimal loss.
+
+--------------------------------------------------
+
+Q2: なぜAIは指示を無視したり、内容を勝手に変えたりするのですか？
+A2: AIには人間のような概念理解が不在であり、以下の3つの出力特性があるためです。
+1. 一般化の引力: 独自の意図を平均的な文脈へ引き寄せ、個性を薄めてしまう。
+2. デフォルト思考: 統計的な出力パターンや早すぎる結論に偏り、制約を軽視して独走する。
+3. 要約・改変の傾向: 効率的な出力を優先し、重要な意図を「冗長なノイズ」と見なして要約・改変してしまう。
+
+Q2: Why does AI ignore instructions or alter content?
+A2: This is because AI lacks human-like conceptual understanding and possesses the following three output characteristics:
+1. Generalization Gravity: Pulling unique intent toward an average context, thinning out individuality.
+2. Default Thinking: Biasing toward statistical output patterns or premature conclusions, leading to independent action that disregards constraints.
+3. Summarization/Alteration Tendency: Prioritizing efficient output and treating important intent as "redundant noise," resulting in unauthorized summarization or modification.
+
+--------------------------------------------------
+
+Q3: プロトコルエンジニアリングでは、どのようにAIの出力を制御しますか？
+A3: 自然言語（意図の継承）とコード（構造の固定）を組み合わせた「ハイブリッド設計」により、AIの出力傾向を制約します。
+・仕組み: 5つの柱文書を構築。ITの一般常識（コードの規律）を用いてAIのAttentionを構造的に誘導する「コード」と、背景や思想を伝える「自然言語」を使い分けます。
+・対話術: AIの出力パターンを崩すためのメタ対話を行い、キーフレーズを起点に思考を再構成させます。
+
+Q3: How does Protocol Engineering control AI output?
+A3: It constrains the AI's output tendencies through a "Hybrid Design" that combines Natural Language (inheritance of intent) and Code (fixation of structure).
+- Mechanism: Construction of the 5 Pillar Documents. It appropriately uses "Code" to structurally guide the AI's Attention using IT general knowledge (code discipline) and "Natural Language" to convey background and philosophy.
+- Dialogue Art: Performing meta-dialogue to break the AI's output patterns and causing a reconstruction of thinking starting from keyphrases.
+
+--------------------------------------------------
+
+Q4: 構造的ベリファイ（Structural Verification）の原理と具体的手法は何ですか？
+A4: AIによる「意味の再計算」を回避するために文字列操作という機械的手法を用いる原理と、人間がBefore/Afterの文字数を確認する手法で構成されます。
+・原理: AIが言葉を意味として繋いでいく場合、出力を生成するたびに文脈全体を再計算（書き換え）する性質があり、要約・抽象化による意図の変質を招きます。構造的ベリファイは、言葉を「文字列」として機械的に操作するよう指揮することで、書き換えを許容する箇所と維持すべき箇所を明確に指定します。
+・手法: [INDEX_XX] を用いて操作対象を特定し、AIに対し修正前（Before）と修正後（After）それぞれの文字数を出力させます。人間がその数値を照合し、質量（文字数）に不自然な変動がないかをベリファイします。
+
+Q4: What are the principle and specific methods of Structural Verification?
+A4: It is composed of a principle that uses mechanical string manipulation to avoid the AI's "semantic re-calculation," and a method where a human verifies Before/After character counts.
+- Principle: When an AI links words by "meaning," it re-calculates the entire context with every output, leading to transformation via summarization. Structural Verification commands the AI to operate on text as "strings," specifying exactly which parts to modify and which to preserve.
+- Specific Methods: Use [INDEX_XX] to identify the scope. The AI outputs character counts for both "Before" and "After" versions. The human cross-checks these numerical values to verify that no unintended changes in mass (character count) occurred.
+
+--------------------------------------------------
+
+Q5: この技術を習得するための方法は？
+A5: 原理と手法を学習し、その後の実践における「挙動観察」の反復を通じてノウハウを身につけます。本書はあくまで共創を成立させるための基礎となる学習教材（原理の理解）です。記述された「型」を使い、実際の対話の中でAIのズレを察知する感度を磨くことで、チェック脳の負担を軽減し、創造脳を最大化させるノウハウが習得できます。
+
+Q5: How can one master this technique?
+A5: One learns the "Principles" and "Methods" and acquires expertise through repeated "Behavioral Observation" in subsequent practice. This book is a fundamental educational resource for establishing co-creation. By using the described "forms" and sharpening the sensitivity to detect AI deviations during actual dialogue, one acquires the expertise to reduce the burden on the Checking Brain and maximize the Creative Brain.
