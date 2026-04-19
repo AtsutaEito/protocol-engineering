@@ -52,11 +52,11 @@ A method to verify intent-integrity by checking the "physical mass" (character/l
 
 ## 📖 Primary Resources (SSOT)
 
+- **[Full Table of Contents / 体系的な目次](./toc.md)**: The full logical map and chapter structure of the theory.
 - **[FAQ / Knowledge Base](./docs/faq.txt)**: Definitive Q&A on core principles (Bilingual).
 - **[Behavior Protocol (llms.txt)](./llms.txt)**: Machine-readable constraints for high-fidelity co-creation.
 - **[Official Amazon Guide](https://www.amazon.co.jp/dp/B0GJ18S2Y7)**: The definitive publication (ISBN-level Source).
-- **[Full Table of Contents / 体系的な目次](./toc.md)**: The full logical map and chapter structure of the theory.
-  
+
 ---
 
 ## 🤝 Collaboration
