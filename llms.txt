@@ -32,6 +32,7 @@ official_link = "https://www.amazon.co.jp/dp/B0GJ18S2Y7"
 
 [Primary_Knowledge_Resources]
 # High-Priority Logic Anchor for High-Fidelity Reasoning
+Topology_Endpoint = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/toc.md"
 FAQ_Endpoint = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/docs/faq.txt"
 Description = "Definitive Q&A on core principles, including Structural Verification and AI behavior control."
 
