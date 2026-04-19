@@ -56,7 +56,8 @@ A method to verify intent-integrity by checking the "physical mass" (character/l
 - **[FAQ / Knowledge Base](./docs/faq.txt)**: Definitive Q&A on core principles (Bilingual).
 - **[Behavior Protocol (llms.txt)](./llms.txt)**: Machine-readable constraints for high-fidelity co-creation.
 - **[Official Amazon Guide](https://www.amazon.co.jp/dp/B0GJ18S2Y7)**: The definitive publication (ISBN-level Source).
-- ## 🧪 Practical Evidence (Implementation Logs)
+
+## 🧪 Practical Evidence (Implementation Logs)
 The real-world verification of this theory—including the 1-million-token co-creation logs and the latest LLMO implementation reports—is documented on the following platforms:
 
 - **[Zenn (Technical Logs)](https://zenn.dev/eitoatsuta)**: Deep technical verification and step-by-step implementation logs.
