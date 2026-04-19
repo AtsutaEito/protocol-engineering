@@ -233,5 +233,10 @@
   }
 }
 ```
+---
+
+## 🔗 External Connections (外部リンク / 実証記録)
+- **Technical Articles (Zenn):** [https://zenn.dev/eitoatsuta](https://zenn.dev/eitoatsuta)
+- **Conceptual Discussions (note):** [https://note.com/8fieldsplanning](https://note.com/8fieldsplanning)
 
 Copyright (c) 2026 Eito Atsuta. All rights reserved.
