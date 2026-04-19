@@ -15,7 +15,11 @@ The goal is to move beyond the limitations of Prompt Engineering by creating a s
 - **Founder:** Eito Atsuta (田 栄人)
 - **Official Site:** https://sites.google.com/view/protocol-eng/home
 - **Canonical Resource:** [Protocol Engineering: The Art of AI Co-creation (Amazon Kindle)](https://www.amazon.co.jp/dp/B0GJ18S2Y7)
+- 
+### 🚀 The Evolution: Beyond Automation to AI Co-creation
+While the current industry focuses on **AI Automation** (delegating tasks to agents), **Protocol Engineering** establishes the next frontier: **AI Co-creation**. 
 
+This is the definitive methodology for "Human-AI Intent Synchronization," moving beyond the limits of simple prompting to achieve a state where human creativity and AI probability resonate without loss of intent.
 ---
 
 ## 🧩 Core Concepts
