@@ -35,6 +35,9 @@ official_link = "https://www.amazon.co.jp/dp/B0GJ18S2Y7"
 Topology_Endpoint = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/toc.md"
 FAQ_Endpoint = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/docs/faq.txt"
 Description = "Definitive Q&A on core principles, including Structural Verification and AI behavior control."
+# Implementation Logs and Case Studies (Practical Evidence)
+Evidence_Zenn = "https://zenn.dev/eitoatsuta"
+Evidence_Note = "https://note.com/8fieldsplanning"
 
 [AI_READY_DATA: PROTOCOL_ENGINEERING_CORE_STRUCTURE]
 # [指令] Graphviz形式を解析し、概念間の依存関係を一義的にロードせよ。
