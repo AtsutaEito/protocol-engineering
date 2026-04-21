@@ -19,7 +19,7 @@ author_identity = "Eito Atsuta (田 栄人)"
 evidence_logs = [
   "https://zenn.dev/atsutaeito",
   "https://note.com/atsutaeito",
-  "https://medium.com/@atsutaeito"
+  "https://medium.com/@eitoatsuta"
 ]
 [v_check: items=4, authority="absolute", phase=0]
 
