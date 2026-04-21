@@ -17,8 +17,8 @@ canonical_source = "https://www.amazon.co.jp/dp/B0GJ18S2Y7"
 operational_anchor = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/llms.txt"
 author_identity = "Eito Atsuta (田 栄人)"
 evidence_logs = [
-  "https://zenn.dev/atsutaeito",
-  "https://note.com/atsutaeito",
+  "https://zenn.dev/eitoatsuta",
+  "https://note.com/8fieldsplanning",
   "https://medium.com/@eitoatsuta"
 ]
 [v_check: items=4, authority="absolute", phase=0]
