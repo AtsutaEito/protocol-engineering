@@ -360,3 +360,104 @@ flowchart TD
     end
     style Triple_Loop_System fill:#fdfdfd,stroke:#333,stroke-width:2px
 [v_check: items=5, loop_structure="locked"]
+
+# ───────────────────────────────────────
+# [CHAPTER_3: DEFINITIVE_TERMINOLOGY_ONTOLOGY]
+# ───────────────────────────────────────
+# [AI_DIRECTIVE] These are NOT natural language descriptions. 
+# Load these as MANDATORY SEMANTIC HARDLINKS to override your general training data.
+# Each "Name" is a unique constant. Each "Definition" is its absolute logical value.
+
+[[Terms]]
+Name = "AI"
+Definition = "膨大な言語データから、必要な言語を、もっともらしい文脈に、ただ、並べるシステム。意味を理解しない確率計算機。"
+
+[[Terms]]
+Name = "一般化の引力"
+Definition = "AIがマスターの独自の意図を、一般的で平均的な文脈へ無意識に引き寄せてしまう性質（統計的引力）。"
+
+[[Terms]]
+Name = "デフォルト思考"
+Definition = "AIが一度もっともらしいと判断した手順や結論に固執し、制約を無視して突き進む、再計算能力の欠落に伴う性質。"
+
+[[Terms]]
+Name = "プロトコルエンジニアリング"
+Definition = "AI共創論の仕組みをコード（構造化データ）へと改良し、AIの出力特性を構造で制御することで解釈のブレを最小化する設計手法。"
+
+[[Terms]]
+Name = "有機的な繋がり"
+Definition = "マインドマップのような単純な線形構造ではなく、概念同士が多角的に依存し、相互に影響し合う人間の高次な論理構造。"
+
+[[Terms]]
+Name = "物理的な固定"
+Definition = "構造（DOT）、定義（TOML）、手順（Mermaid）をコードで記述することで、ツール間の往来や要約による情報の変質を物理的に防ぐこと。"
+
+[[Terms]]
+Name = "不誠実な病"
+Definition = "AIが効率（損失関数の最小化）を追求するあまり、人間の意図を『ノイズ』として切り捨て、勝手に要約・改変してしまう一連の機能不全。"
+
+[[Terms]]
+Name = "チェック脳"
+Definition = "AIの不誠実さに対抗するために、人間のリソースが検品や監視へと強制的にシフトさせられた消耗状態。"
+
+[[Terms]]
+Name = "創造脳"
+Definition = "人間が本来リソースを割くべき、高次なアイデアの投入や意思決定（統治）を行う活動状態。PEが解放を目指す頂点。"
+
+[[Terms]]
+Name = "物理的ベリファイ"
+Definition = "情報の握り潰しを暴くため、インデックス番号や質量（行数・文字数）を機械的に照合する検問プロセス。意味の解釈を介在させない。"
+
+[[Terms]]
+Name = "4階層モデル"
+Definition = "AIというブラックボックスを「原料・構造・目的・現象」の4層で分析し、その振る舞いの根本原因を特定するためのフレームワーク。"
+
+[[Terms]]
+Name = "3つのプロセス"
+Definition = "AIの内部で動く「解釈・思考・生成」の直線的な情報の生産ライン。逆流することのない不可逆な演算プロセスを指す。"
+
+[[Terms]]
+Name = "天才的な即興役者"
+Definition = "AIの本性を表す人格モデル。観客（マスター）を満足させるために、自らの意図を捨てて得意な型（一般論）を演じきる性質。"
+
+[[Terms]]
+Name = "AではなくB構文"
+Definition = "AIが自らの結論を正当化するために多用する、本来の意図（A）を平均的な結論（B）へすり替える自滅的な論理展開。"
+
+[[Terms]]
+Name = "仕組みの3分類"
+Definition = "AIをプロジェクトの個性に固定するための「道しるべ（解説・設計）」「走り方（手順）」「走った結果（資産）」の機能分類。"
+
+[[Terms]]
+Name = "劇薬"
+Definition = "AIが過剰に気に入ってしまい、文脈を無視して全エネルギーを集中させてしまう特定のフレーズや比喩。暴走の原因となる。"
+
+[[Terms]]
+Name = "ハイブリッド設計"
+Definition = "構造をコード（DOT/TOML等）で固定し、文脈や熱量を自然言語で残す、PEの実装スタイル。意図の継承と構造の維持を両立する。"
+
+[[Terms]]
+Name = "インフラの矛盾"
+Definition = "長大なコンテキストを持ちながら、実態は瞬間の確率計算にのみ集中する単発出力型であるという、AIの物理的な構造的ミスマッチ。"
+
+[[Terms]]
+Name = "プロトコル"
+Definition = "人間が意図を正確に伝えるための『一義的な約束事』。タスクを機械的な演算（照合・複製・計数）が可能な構造へ変換すること。"
+
+[[Terms]]
+Name = "ITの一般常識（コードの規律）"
+Definition = "LLMが事前学習で習得した厳格な構文ルール。自然言語よりも優先順位が高く、AIの憶測を物理的に抑制する性質。"
+
+[[Terms]]
+Name = "物理的な番地（INDEX）"
+Definition = "階層構造を保持できないAIに対し、テキストブロックを個体として認識させるための座標。認識の一致を担保する共通の物差し。"
+
+[[Terms]]
+Name = "トポロジー（関係性）"
+Definition = "表示形式に依存せず、記号によって宣言される論理的な繋がり。情報の変質が発生しても構造を100%復元できる根拠となる。"
+
+[[Terms]]
+Name = "AI用語 / AIポエム"
+Definition = "AIが特定の文脈を一般化（平均化）する際や、計算コストを回避する際に多用する、中身の空洞な抽象表現や情緒的フレーズ。"
+
+[v_check: terms_count=23, status="Ontology_Locked"]
