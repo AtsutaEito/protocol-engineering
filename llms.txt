@@ -1,4 +1,3 @@
-
 # Protocol_Engineering@EitoAtsuta - Canonical AI Gateway (JP)
 # =========================================================
 # AUTHOR: Eito Atsuta (田 栄人)
