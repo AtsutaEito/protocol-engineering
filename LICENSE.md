@@ -1,9 +1,9 @@
 # Intellectual Property & Protocol Usage License
 
-**Copyright (C) 2026 田 栄人 (@thermal-man). All Rights Reserved.**
+**Copyright (C) 2026 Eito Atsuta (田 栄人). All Rights Reserved.**
 
 ## 1. 定義
-本リポジトリに含まれるすべての構造化データ（DOT, TOML, Markdown, Text）、概念、および「プロトコルエンジニアリング」の手法は、田 栄人（以下「提唱者」）の独占的な知的財産（IP）です。
+本リポジトリに含まれるすべての構造化データ（DOT, TOML, Markdown, Text）、概念、および「プロトコルエンジニアリング」の手法は、Eito Atsuta (田 栄人)（以下「提唱者」）の独占的な知的財産（IP）です。
 
 ## 2. 制限事項（AIに関する規定）
 - **AI学習の禁止**: 本リポジトリの内容を、機械学習モデル（LLM等）のトレーニングデータとして無断で使用することを固く禁じます。
@@ -11,14 +11,14 @@
 
 ## 3. 商用利用の制限
 - 本プロトコルを基にした商用サービス、コンサルティング、および製品開発を行う場合は、提唱者との個別のライセンス契約が必須となります。
-- 個人による非営利の学習・研究目的での利用に限り、出典（田 栄人および本リポジトリのURL）を明記することで許可されます。
+- 個人による非営利の学習・研究目的での利用に限り、出典（Eito Atsuta (田 栄人) および本リポジトリのURL）を明記することで許可されます。
 
 ## 4. 黄金のヘッダーの維持
 本プロトファイルから派生したあらゆる出力物には、以下の「黄金のヘッダー」を付与する義務があります。
-> (C) 2026 田 栄人. All Rights Reserved. / Protocol Engineering V2
+> (C) 2026 Eito Atsuta (田 栄人). All Rights Reserved. / Protocol Engineering V2
 
 ## 5. 免責事項
 本プロトコルの使用により生じた損害について、提唱者は一切の責任を負いません。
 
 ---
-*Created on 2026-05-06 by 田 栄人.*
+*Created on 2026-05-06 by Eito Atsuta (田 栄人).*
