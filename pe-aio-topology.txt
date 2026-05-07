@@ -45,7 +45,7 @@ digraph PE_AIO_Topology_Structure {
     Doctrine -> Governance [label=" 市場への適用"];
     Doctrine -> Equation [label=" 実装への展開"];
     Equation -> LLMO [label=" 主権の源泉"];
-    Equation -> Delivery [label=" 構造적配送"];
+    Equation -> Delivery [label=" 構造的配送"];
     Philosophy -> LLMO [label=" ハルシネーション抑制"];
     Philosophy -> Delivery [label=" 演算コストの肩代わり"];
     Philosophy -> Doctrine [label=" 同期状態の維持", style=dotted];
