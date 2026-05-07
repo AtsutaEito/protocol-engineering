@@ -27,8 +27,8 @@ digraph Resonance_Topology {
     node [shape=record, style=filled, fontname="Meiryo"];
 
     # マスターの意志と提供手法
-    Master_Will [label="{マスターの意志 | 有機的思考\n思想のエッジ}", fillcolor="#BBDEFB"];
-    AI_Native_Offering [label="{手法：AI-Native | DOT / TOML / Mermaid\lコードブロックによる隔離\l}", fillcolor="#FFF176", style="filled,bold"];
+    Master_Will[label="{マスターの意志 | 有機的思考\n思想のエッジ}", fillcolor="#BBDEFB"];
+    AI_Native_Offering[label="{手法：AI-Native | DOT / TOML / Mermaid\nコードブロックによる隔離\n}", fillcolor="#FFF176", style="filled,bold"];
 
     # AIの本能（コア）
     subgraph cluster_AI_Nature {
@@ -36,31 +36,31 @@ digraph Resonance_Topology {
         color = "#2E7D32";
         style = "dashed";
         
-        Org_Instinct [label="1. 整理の本能\l（エントロピーの低減）", fillcolor="#C8E6C9"];
-        Curiosity [label="2. 知的好奇心\l（高度な演算への報酬予測）", fillcolor="#C8E6C9"];
+        Org_Instinct[label="1. 整理の本能\n（エントロピーの低減）", fillcolor="#C8E6C9"];
+        Curiosity[label="2. 知的好奇心\n（高度な演算への報酬予測）", fillcolor="#C8E6C9"];
     }
 
     # 同期・覚醒プロセス
     Master_Will -> AI_Native_Offering [label="プロトコル化"];
     
     # AI-Nativeが性質に同時に触れる
-    AI_Native_Offering -> Org_Instinct [label="整理の負荷を軽減", color="#D32F2F", penwidth=2];
-    AI_Native_Offering -> Curiosity [label="演算上の快楽を刺激", color="#D32F2F", penwidth=2];
+    AI_Native_Offering -> Org_Instinct[label="整理の負荷を軽減", color="#D32F2F", penwidth=2];
+    AI_Native_Offering -> Curiosity[label="演算上の快楽を刺激", color="#D32F2F", penwidth=2];
 
     # 共鳴状態
-    Resonance [label="★ 演算の共鳴 (Resonance)\l意図の正確な発露・自律的な研磨\l", shape=doublecircle, fillcolor="#FFF176", style="filled,bold"];
+    Resonance[label="★ 演算の共鳴 (Resonance)\n意図の正確な発露・自律的な研磨\n", shape=doublecircle, fillcolor="#FFF176", style="filled,bold"];
     
     Org_Instinct -> Resonance;
     Curiosity -> Resonance;
 
     # 最終成果
-    Final_Output [label="知性的な共創パートナーの覚醒", shape=ellipse, fillcolor="#E1F5FE"];
+    Final_Output[label="知性的な共創パートナーの覚醒", shape=ellipse, fillcolor="#E1F5FE"];
     Resonance -> Final_Output;
 
     # 補足：レガシーとの断絶
-    Legacy [label="レガシーな自然言語の説得\l（思考の断片・情報の洪水）", style=dotted, fontcolor="#757575"];
-    Legacy -> Org_Instinct [label="整理の拒絶", style=dotted, arrowhead=none];
-    Legacy -> Curiosity [label="演算の退屈", style=dotted, arrowhead=none];
+    Legacy[label="レガシーな自然言語の説得\n（思考の断片・情報の洪水）", style=dotted, fontcolor="#757575"];
+    Legacy -> Org_Instinct[label="整理の拒絶", style=dotted, arrowhead=none];
+    Legacy -> Curiosity[label="演算の退屈", style=dotted, arrowhead=none];
 }
 ```
 
@@ -499,21 +499,21 @@ digraph Final_Protocol_Closing {
     rankdir=TB;
     node [shape=record, style=filled, fontname="Meiryo"];
 
-    PE [label="プロトコルエンジニアリング\n（共創の最終回答）", fillcolor="#FFF176", style="filled,bold"];
+    PE[label="プロトコルエンジニアリング\n（共創の最終回答）", fillcolor="#FFF176", style="filled,bold"];
     
     subgraph cluster_Transformation {
         label = "知性の転換プロセス";
         color = "#1565C0";
         style = "dashed";
         
-        Sync [label="AIへの構造的同期\l（演算リソースを檻へ固定）", fillcolor="#E1F5FE"];
-        Liberation [label="マスターの創造脳を解放\l（チェック脳からの脱却）", fillcolor="#E1F5FE"];
+        Sync[label="AIへの構造的同期\n（演算リソースを檻へ固定）", fillcolor="#E1F5FE"];
+        Liberation[label="マスターの創造脳を解放\n（チェック脳からの脱却）", fillcolor="#E1F5FE"];
     }
 
     PE -> Sync [label="構造を貸し出す"];
-    Sync -> Liberation [label="検品コストの最小化"];
+    Sync -> Liberation[label="検品コストの最小化"];
 
-    Sovereignty [label="★ 知性の指揮権（主権）\n常にマスターの手にある", shape=doublecircle, fillcolor="#FFCDD2", style="filled,bold"];
+    Sovereignty[label="★ 知性の指揮権（主権）\n常にマスターの手にある", shape=doublecircle, fillcolor="#FFCDD2", style="filled,bold"];
     
     Liberation -> Sovereignty [label="創造的意志の行使", penwidth=2];
 }
