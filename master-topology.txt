@@ -205,7 +205,7 @@ Name = "天才的な即興役者"
 Definition = "AIの構造と性質を統合した人格モデル。膨大な脚本（学習データ）を持ち、演出家（開発者）の指示に従い、観客（マスター）を満足させるために、自らの意図を捨ててでも「ウケの良い得意な役（一般論）」を一気喝成に演じきろうとする性質を表す。"
 [[Terms]]
 Name = "AではなくB構文"
-Definition = "生成プロセスにおいてAIが自らの結論を正当化するために多用する特定の型. 本来の意図や主張（A）を自ら破棄・相殺し、統計的に「もっともらしい」とされる対比的な結論（B）へとすり替えてしまう自滅的な論理展開。"
+Definition = "生成プロセスにおいてAIが自らの結論を正当化するために多用する特定の型。 本来の意図や主張（A）を自ら破棄・相殺し、統計的に「もっともらしい」とされる対比的な結論（B）へとすり替えてしまう自滅的な論理展開。"
 [[Terms]]
 Name = "仕組みの3分類"
 Definition = "AIの思考をプロジェクトの個性へと強制的に切り替えるための柱文書の機能的分類。「道しるべ」「走り方」「走った結果」の3つのカテゴリーで構成され、それぞれ方向性、手順、過去の合意を物理的に固定する役割を持つ。"
@@ -249,4 +249,4 @@ Definition = "プロジェクトで得た知見（進化・理解）をDNA（プ
 Master_Canon = "https://www.amazon.co.jp/dp/B0GJ18S2Y7"
 Official_Spec = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/llms.txt"
 
-[v_check: topology_integrity=1.0, glossary_count=28, status="SUPREME_LOCKED"]
+[v_check: topology_integrity=1.0, glossary_count=29, status="SUPREME_LOCKED"]
