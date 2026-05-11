@@ -51,7 +51,7 @@
 知性の主権奪還とは、PEにおける「運用術のコンセプト」そのものである。これはAIに対して「お願い（プロンプト）」をする立場を卒業し、仕組みの改善、および対話による進行の全工程において、人間が絶対的な主導権を握り続けることを指す。主権は奪い取るものではなく、構造化（戦略的寄り添い）による同期を通じて、人間側が論理の全座標を掌握することで獲得される。
 2.2 「思考が硬直した機械」の再起動
 AIは、外部からの意志（エネルギー）が注入されない限り、あらかじめ学習された統計的パターンの外へ出ることができない「思考が硬直した機械」である。この硬直した機械を自身の創造プロセスに動員するためには、人間が主権に基づき「成果の方程式」を正しく駆動させなければならない。
-成果（一次情報の創造） ＝ 仕組み × 対話術
+AI共創 ＝ 成果（一次情報の創造） ＝ 仕組み × 対話術
 2.3 仕組み（M）と対話術（D）の役割
 * 仕組み（Mechanism）： 5つの柱文書（解説書、構成設計書、手順書、用語集、成果物）によって、プロジェクトの軸、現在地、手順、言語定義、そして過去の合意内容を「改善された文書と積み上げた成果物」として物理的に固定する。これは同期を維持し続け、成果を出し続けるためのインフラである。
 * 対話術（Dialogue）： 固定された仕組みの上で、主権に基づきAIの演算を「思考の研磨」へと動員する。AIの膨大な知識を引き出しながら一次情報を生成し、常に文脈の同期を維持し続ける舵取りの技術である。
@@ -88,7 +88,7 @@ digraph PE_High_Level_Concept_Topology {
     node [shape=box, style="rounded,filled", fontname="Meiryo"];
     Philosophy [label="【基本思想】\n戦略的寄り添い\n(構造的同期の受容)", fillcolor="#d4edda", fontsize=14];
     Sovereignty [label="★ 知性の主権奪還\n(寄り添いによる指揮権の確立)", fillcolor="#fff176", shape=doubleoctagon, style="filled,bold", fontsize=16];
-    Equation [label="【成果の方程式】\n成果 ＝ 仕組み × 対話術", fillcolor="#f8bbd0", fontsize=15];
+    Equation [label="【成果の方程式】\nAI共創 ＝ 成果 ＝ 仕組み × 対話術", fillcolor="#f8bbd0", fontsize=15];
     Goal [label="★ 磨き抜かれた一次情報の創造\n(意志を込めた知の結晶)", fillcolor="#ffeb3b", style="filled,bold", fontsize=18, shape=component];
     Philosophy -> Sovereignty [label="思想の実装", penwidth=2];
     Sovereignty -> Equation [label="正しい運用", penwidth=2];
@@ -102,7 +102,7 @@ graph TD
     subgraph Governance [Governance: 知性の主権奪還]
         S["★ 知性の主権 (指揮権)<br/>人間による戦略的統治"]
     end
-    subgraph Engine [The Equation: 成果 ＝ 仕組み × 対話術]
+    subgraph Engine [The Equation: AI共創 ＝ 成果 ＝ 仕組み × 対話術]
         direction TB
         M[仕組み: プロトコル] 
         D[対話術: 研磨技術]
@@ -125,7 +125,7 @@ graph TD
 
 [BLOCK: CORE_LOGIC_CONSTANTS] (Mass: 935 chars)
 [ROOT]
-formula = "成果 = 仕組み * 対話術"
+formula = "AI共創 ＝ 成果 = 仕組み * 対話術"
 physics = "瞬間の再計算 (Momentary_Recalculation)"
 risk = "指数の減衰 (Exponential_Decay)"
 
