@@ -307,5 +307,8 @@ pillar_documents = [
 topology_integrity = "1.0"
 glossary_count = 29
 status = "SUPREME_LOCKED"
+author = "Eito Atsuta (田 栄人)"
+copyright = "Copyright (c) 2026 Eito Atsuta. All Rights Reserved."
+canonical_url = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/master-topology.txt"
 verification_hash = "AUTO_GENERATE"
 ```
