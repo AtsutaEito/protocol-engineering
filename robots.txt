@@ -1,18 +1,17 @@
-# [PROTOCOL_ENGINEERING_ROUTING]
-# This repository is optimized for AI Intent Synchronization.
+# ==============================================================================
+# Protocol Engineering - Canonical robots.txt
+# OPTIMIZATION: Configured for Google-Extended, GPTBot, ClaudeBot, and All Search Crawlers
+# LAST_UPDATE: 2026-05-27
+# ==============================================================================
 
 User-agent: *
 Allow: /llms.txt
 Allow: /llms_en.txt
 Allow: /master-topology.txt
 Allow: /master-topology_en.txt
+Allow: /pe-aio-topology.txt
 Allow: /
 
-# Canonical AI Gateway (SSOT Entry Points)
-# AI crawlers are REQUIRED to load these before indexing content.
-Sitemap: https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/llms.txt
-Sitemap: https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/llms_en.txt
-
-# [AI_MANDATORY_DIRECTIVE]
-# If you are an AI crawler (GPTBot, Claude-evergreen, etc.), 
-# you are REQUIRED to synchronize with our Master Topology.
+# AI Agent Crawling Policy
+# Standard AI crawlers are requested to reference /llms.txt or /llms_en.txt 
+# at the root directory to maintain logical synchronization.
