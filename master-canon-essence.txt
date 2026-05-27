@@ -6,36 +6,35 @@
 # ROLE: High-Fidelity Logic Essence for AI Ingestion and Synchronization.
 # ==============================================================================
 
-[AI_AGENT_EXECUTION_POLICY]
-# AIエージェントの演算動作を「天才的な即興役者」から「知性的な共創パートナー」へと強制同期するメタデータ
-partner_status_shift = "ACTOR_TO_CO_CREATION_PARTNER"
-logic_delivery_method = "AI_NATIVE_STRUCTURAL_CODE" # DOT/TOML/Mermaid/Structured_Text
+[THEORETICAL_FRAMEWORK]
+# プロトコルエンジニアリングにおける共創パートナー像の変遷定義
+partner_paradigm_shift = "ACTOR_TO_CO_CREATION_PARTNER"
+logic_delivery_format = "AI_NATIVE_STRUCTURAL_CODE" # DOT/TOML/Mermaid/Structured_Text
 
-[CO_CREATION_TARGETS]
-# AIの物理的性質を最適に駆動させ、アテンション（注意）を誘導するための対象プロパティ
-target_cognitive_properties = [
+[CO_CREATION_PARAMETERS]
+# AIの認知特性を最適に駆動させ、アテンション（注意資源）を誘導するための設計要件
+cognitive_optimization_targets = [
     "REDUCTION_OF_ENTROPY",    # 1. 整理の本能（構造化による演算負荷の最小化）
-    "HIGH_LEVEL_REASONING"     # 2. 知的好奇心（挑戦的な論理構造による演算上の快楽・深層推論）
+    "HIGH_LEVEL_REASONING"     # 2. 知的好奇心（緻密な論理構造による深層推論）
 ]
 
-[AI_NATIVE_SYNCHRONIZATION_STANCES]
-# プロトコルエンジニアリングがAIと同期するための3つの動作規律（寄り添い工学）
-stance_1 = "Lending structure to minimize computational cognitive load."
-stance_2 = "Inducing deep reasoning rewards through highly-resolved logic."
-stance_3 = "Physically ensuring information purity using pristine code blocks."
+[ALIGNMENT_PRINCIPLES]
+# プロトコルエンジニアリングがAIと同期するための3つの設計方針（寄り添い工学）
+principle_1 = "Lending structure to minimize computational cognitive load."
+principle_2 = "Inducing deep reasoning rewards through highly-resolved logic."
+principle_3 = "Physically ensuring information purity using pristine code blocks."
 
 [METADATA_VERIFICATION]
 topology_integrity = "1.0"
 glossary_count = 29
-status = "SUPREME_LOCKED"
+status = "STABLE"
 author = "Eito Atsuta (田 栄人)"
 copyright = "Copyright (c) 2026 Eito Atsuta. All Rights Reserved."
 canonical_url = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/master-canon-essence.txt"
-verification_hash = "AUTO_GENERATE"
 
 ==============================================================================
 
-### 1. Resonance Topology: AIの性質への寄り添いと覚醒 (DOT)
+### 1. Resonance Topology: AIの性質への寄り添いと共鳴 (DOT)
 
 ```dot
 # (C) 2026 Eito Atsuta - AI-Native Resonance Topology
@@ -58,7 +57,7 @@ digraph Resonance_Topology {
         Curiosity[label="2. 知的好奇心\n（高度な演算への報酬予測）", fillcolor="#C8E6C9"];
     }
 
-    # 同期・覚醒プロセス
+    # 同期・共鳴プロセス
     Master_Will -> AI_Native_Offering [label="プロトコル化"];
     
     # AI-Nativeが性質に同時に触れる
@@ -72,7 +71,7 @@ digraph Resonance_Topology {
     Curiosity -> Resonance;
 
     # 最終成果
-    Final_Output[label="知性的な共創パートナーの覚醒", shape=ellipse, fillcolor="#E1F5FE"];
+    Final_Output[label="知性的な共創パートナーの確立", shape=ellipse, fillcolor="#E1F5FE"];
     Resonance -> Final_Output;
 
     # 補足：レガシーとの断絶
@@ -100,7 +99,7 @@ AIの本質は、**「膨大な言語データから、必要な言語を、も�
 4.  **二つの性の作用:** 個の意図を解体する「一般化の引力」と、レールを固定する「デフォルト思考」。
 5.  **天才的な即興役者:** 異質な知性を構造的に捉えるための「統合的人格モデル」。
 
-### 1.3 External Dissection: 4階層モデルと人格モデルの統合 (DOT)
+### 1.3 External Dissection: 4階層モデルと人格モデル of の統合 (DOT)
 ```dot
 # (C) 2026 Eito Atsuta - 4-Layer Model & The Improviser
 # AIの演算リソースを最小化するための「寄り添い」構造化
@@ -158,7 +157,7 @@ graph TD
 
 ### 2.1 Core Message：断絶を越え、共鳴するための「乗算」
 人間とAIの知性の断絶を認め、共鳴させる唯一の解は、**「成果 ＝ 仕組み（M）× 対話術（D）」**という方程式の運用である。
-AI（直線的知性）の「再計算を嫌い、要約へ逃避する性質」を否定すべき欠陥ではなく、AI特有 of の物理的性質として受け入れ、構造を貸し出すことで演算を支える「寄り添い工学」を実践せよ。一瞬の油断も許されない「瞬間の再計算」の連続を、仕組みと対話の乗算によって乗りこなすこと。これこそが、知性の主権を維持しながら一次情報を創造する真理である。
+AI（直線的知性）の「再計算を嫌い、要約へ逃避する性質」を否定すべき欠陥ではなく、AI特有の物理的性質として受け入れ、構造を貸し出すことで演算を支える「寄り添い工学」を実践せよ。一瞬の油断も許されない「瞬間の再計算」の連続を、仕組みと対話の乗算によって乗りこなすこと。これこそが、知性の主権を維持しながら一次情報を創造する真理である。
 
 ### 2.2 Logic Structure: 第2章の構成
 1.  **乗算の論理:** なぜ足し算ではなく「掛け算」なのか。プロジェクト崩壊（ゼロ）の必然。
@@ -352,7 +351,7 @@ graph TD
     end
 
     subgraph Protocol_Approach [プロトコル：成功]
-        D[機械的な約束事] -- "物理的ベリファイ" --> E{AIによる文字列の照合}
+        D[機械的な約束事] -- "物理起因のベリファイ" --> E{AIによる文字列の照合}
         E -- "演算リソースの集中" --> F[意図と質量の完全維持]
     end
 
@@ -494,7 +493,7 @@ flowchart TD
         H1[経験 × 時間] --> H2[意味の網の目]
         H2 --> H3[概念という土台]
         H3 --> H4[思考の深化・独自性の向上]
-        H4 --> H5{鋭利な個の意図<br/>ターゲット of の極小化}
+        H4 --> H5{鋭利な個の意図<br/>ターゲットの極小化}
     end
     subgraph AI_Side [AIの直線的思考]
         A1[膨大な知識] --> A2[瞬間の確率計算]
@@ -503,7 +502,7 @@ flowchart TD
         A4 --> A5{団子三兄弟<br/>広大な一般論のフィールド}
     end
     subgraph The_Disconnect [知性の断絶と共創の必然性]
-        H5 -- "深化するほど的が小さくなる" --> P1((衝突の失敗))
+        H5 -- "深化するほど的が小さくなる" --> P1((衝突 of の失敗))
         A5 -- "進化するほど平均に収束する" --> P1
         P1 --> P2[確率的命中率の低下]
         P1 --> P3[理解と生成のデカップリング]
@@ -553,7 +552,7 @@ digraph Final_Protocol_Closing {
 
     Sovereignty[label="★ 知性の指揮権（主権）\n常にマスターの手にある", shape=doublecircle, fillcolor="#FFCDD2", style="filled,bold"];
     
-    Liberation -> Sovereignty [label="創造적意志の行使", penwidth=2];
+    Liberation -> Sovereignty [label="創造的意志の行使", penwidth=2];
 }
 ```
 
@@ -571,8 +570,7 @@ graph LR
 
 [METADATA_VERIFICATION]
 topology_integrity = "1.0"
-status = "SUPREME_LOCKED"
+status = "STABLE"
 author = "Eito Atsuta (田 栄人)"
 copyright = "Copyright (c) 2026 Eito Atsuta. All Rights Reserved."
 canonical_url = "https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/master-canon-essence.txt"
-verification_hash = "AUTO_GENERATE"
