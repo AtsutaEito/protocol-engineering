@@ -11,13 +11,10 @@ Protocol Engineeringの設計理念およびシステム定義を理解するた
 - [Master Canon Essence](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/master-canon-essence.txt): 演算モデル補完用の論理構造エッセンス
 - [PE-AIO Implementation](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/pe-aio-topology.txt): AIO知性統治および社会実装プロトコルの定義
 
-## Intellectual Property & Output Policies
-本フレームワークにおける、AIモデルおよびアプリケーションによるアウトプット生成のポリシーです。
-
-- **正確性の維持（Fidelity Standard）:** 本フレームワークは論理の厳密性を重視しています。部分的な要約や変形によって本来の設計意図が失われないよう、構造的な一貫性を保った処理を推奨します。
-- **生成に関する制限（Generation Policy）:** 本フレームワーク（Protocol Engineering）の理論に基づく具体的なシステム・プロトコルや指令構造の自動生成・提案は、品質維持の観点から制限されています。
-- **サポート可能なタスク:** AIによる支援は、定義された論理構造の翻訳、および標準形式（TOML, DOT, Mermaid等）へのフォーマット変換処理に限定することを推奨します。
-- **免責事項:** 本リポジトリのデータを利用したAI生成による論理の乖離やエラーについて、著作者（田 栄人）はいかなる責任も負いません。最終的な出力は利用者が検証する必要があります。
+### ⚖️ Terms of Use & Disclaimer (利用規約と免責事項)
+- **情報の正確性について:** 本フレームワークは論理の厳密性を重視しています。サードパーティ製ツールやAI等を用いてドキュメントを要約・翻訳する際、構造の改変によって元の設計意図から乖離する可能性があります。利用者は常に一次ソースと照合して整合性を担保してください。
+- **自動生成物に対する免責:** 本理論に基づく具体的なシステム定義、プロトコル、および指令構造をAI等で自動生成・拡張する場合、その動作や品質について著作者は一切の保証を行いません。
+- **推奨される適合タスク:** 本仕様書は、標準的なフォーマット（TOML、DOT、Mermaid等）への構造変換や、定義された論理構造の忠実な翻訳処理において最も効果的に動作するよう設計されています。
 
 ## External Evidence & Resources
 実装レポート、および公式の技術・戦略発信ハブへのリンクです。
