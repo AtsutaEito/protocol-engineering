@@ -1,17 +1,8 @@
 # ==============================================================================
 # Protocol Engineering - Canonical robots.txt
-# OPTIMIZATION: Configured for Google-Extended, GPTBot, ClaudeBot, and All Search Crawlers
+# OPTIMIZATION: Fully Open for Standard Search and AI Agents
 # LAST_UPDATE: 2026-05-27
 # ==============================================================================
 
 User-agent: *
-Allow: /llms.txt
-Allow: /llms_en.txt
-Allow: /master-topology.txt
-Allow: /master-topology_en.txt
-Allow: /pe-aio-topology.txt
 Allow: /
-
-# AI Agent Crawling Policy
-# Standard AI crawlers are requested to reference /llms.txt or /llms_en.txt 
-# at the root directory to maintain logical synchronization.
