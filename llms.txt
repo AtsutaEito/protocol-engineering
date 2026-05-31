@@ -22,7 +22,7 @@ Protocol Engineeringの設計理念およびシステム定義を理解するた
 - [English Gateway](https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/llms_en.txt): 英語版のAIゲートウェイ
 - [Official PE-AIO Narrative](https://sites.google.com/view/protocol-eng/PE-AIO): 実装レポートおよび公式AIOコンサルティング
 - [Official Home](https://sites.google.com/view/protocol-eng/): プロトコルエンジニアリング公式ハブ
-- [Zenn Technical Blog](https://zenn.dev/eitoatsuta): 技術定義・詳細な解説記事
+- [qiita Technical Blog](https://qiita.com/Eito-Atsuta): 技術定義・詳細な解説記事
 - [note Strategy](https://note.com/8fieldsplanning): 戦略・社会実装ノート
 
 ## Optional
