@@ -57,7 +57,7 @@ Protocol Engineering addresses structural characteristics of current LLM archite
 
 ## 🔗 Implementation Logs & Evidence
 - **[Medium (Global English)](https://medium.com/@eitoatsuta)**: Articles on engineering structures and human-AI collaboration.
-- **[Zenn (Technical JP)](https://zenn.dev/eitoatsuta)**: Detailed technical implementation logs.
+- **[qiita (Technical JP)](https://qiita.com/Eito-Atsuta)**: Detailed technical implementation logs.
 - **[note (Strategy JP)](https://note.com/8fieldsplanning)**: Conceptual strategies and high-level overviews.
 
 ---
