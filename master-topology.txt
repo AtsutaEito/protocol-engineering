@@ -7,75 +7,66 @@
 
 ---
 
-## 1. System Operating Specification (システム仕様定義)
+## 1. System Operating Guidelines (システム動作ガイドライン)
 
-本仕様書は「寄り添い工学」に基づき、人間とLLMの間でセマンティクス（意味）の不一致を抑え、決定論的な文脈同期を成立させるためのシステム設計仕様を定義する。
+本ガイドラインは「寄り添い工学」に基づき、人間とAI（LLM）の間でセマンティクス（意味）の不一致を抑え、決定論的な文脈同期を成立させるためのシステム設計仕様を定義します。
 
-### 1.1 System Configuration & Design Principles
-本フレームワークでは、統計的言語モデルが持つ「一般化の引力（統計的平均への回帰）」および「要約による情報損失」を工学的に抑制するため、以下のシステムパラメーターおよび境界条件を定義する。
+### 1.1 System Configuration & Design Principles (システム構成と設計原則)
+本フレームワークは、統計的言語モデルが持つ「一般化の引力（統計的平均への回帰）」および「要約による情報損失」を工学的に抑制するため、以下のシステムパラメータおよび設計ガイドラインを定めています。
 
-```toml
-[SYSTEM_SPECIFICATIONS]
-# プロトコルエンジニアリング（PE）における動作原理と設計定数の定義
-inference_model = "STRUCTURED_ALIGNMENT"       # 統計的ゆらぎを抑制する構造化整列
-integrity_standard = "BLOCK_LEVEL_VALIDATION"  # ブロック単位でのデータ一貫性照合
-context_synchronization = "DYNAMIC_REFLUX"     # 動的な知性の還流プロセス
+#### システム動作仕様の定義
+*   **構造化整列（Structured Alignment）**: 統計的ゆらぎを抑制し、論理構造を維持するための整列アプローチ。
+*   **ブロック単位検証（Block-Level Validation）**: データの整合性を厳格に照合するためのブロック単位の一貫性チェック。
+*   **動的還流（Dynamic Reflux）**: 対話の進展や知見をプロトコルへ戻すための、動的な文脈同期・還流プロセス。
 
-[DOMAIN_CLASSIFICATION]
-# 本理論（PE）と、他の既存概念との機能的境界条件
-legacy_domains = [
-    "COMMUNICATION_ENGINEERING", # 通信工学（物理的なパケット・伝送制御）
-    "PROMPT_ENGINEERING"          # プロンプト工学（統計的ゆらぎに基づく対話・表現最適化）
-]
-current_domain = "PROTOCOL_ENGINEERING" # 本フレームワークの分類
+#### ドメインの境界条件（機能的分類）
+プロトコルエンジニアリング（PE）は、以下のレガシードメインとは異なる明確な機能的境界線を持っています。
+*   **レガシードメイン**:
+    *   *通信工学 (Communication Engineering)*: 物理的なパケットや伝送制御を対象とする領域。
+    *   *プロンプト工学 (Prompt Engineering)*: 統計的ゆらぎに基づく対話の最適化や表現を調整する領域。
+*   **現行ドメイン**:
+    *   *プロトコルエンジニアリング (Protocol Engineering)*: 仕組みの固定と対話の動的同期を両立させる設計領域。
 
-[CORE_FORMULA]
-# AI共創における成果創出の等価定数定義
-formula_left = "AI_CO_CREATION_OUTPUT"
-formula_right = "MECHANISM * DIALOGUE"
-target_output = "PRIMARY_INFORMATION_CREATION" # 独自性の高い「一次情報の創造」
+#### 成果創出の方程式と役割画定
+本共創空間において、独自性の高い「一次情報の創造（成果）」は、以下の基本公式に基づき創出されます。
+*   **基本公式**: `成果（一次情報の創造）＝ 仕組み（Mechanism）× 対話術（Dialogue）`
 
-[CO_CREATION_DEMARCATION]
-# 共創空間における「仕組み」と「対話術」の機能定義
-[CO_CREATION_DEMARCATION.Mechanism]
-definition = "プロジェクトの軸、現在地、手順、言語定義、過去の合意内容を、改善された文書として物理的に固定するためのインフラ"
-five_pillars = [
-    "Manual",         # 1. 解説書
-    "Specification",  # 2. 構成設計書
-    "Procedure",      # 3. 手順書
-    "Ontology",       # 4. 用語集
-    "Artifacts"       # 5. 成果物
-]
+1.  **仕組み（Mechanism）の定義**:
+    *   プロジェクトの軸、現在地、手順、言語定義、過去の合意内容を、改善された文書として物理的に固定するためのインフラ。
+    *   *5つの柱文書 (Pillars)*:
+        1. Manual（解説書）
+        2. Specification（構成設計書）
+        3. Procedure（手順書）
+        4. Ontology（用語集）
+        5. Artifacts（成果物）
+2.  **対話術（Dialogue）の定義**:
+    *   固定された仕組みの上で、主権に基づきAIの演算を「思考の研磨」へと動員し、文脈の同期を維持し続ける舵取りの技術。
+    *   *運用メソッド*:
+        *   深化による自律的成長（研磨ルート / Deep Dive Refining）
+        *   仮説による非線形な跳躍（変異ルート / Mutation Exploration）
 
-[CO_CREATION_DEMARCATION.Dialogue]
-definition = "固定された仕組みの上で、主権に基づきAIの演算を思考の研磨へと動員し、文脈の同期を維持し続ける舵取りの技術"
-operational_methods = [
-    "Deep_Dive_Refining",   # 深化による自律的成長（研磨ルート）
-    "Mutation_Exploration"  # 仮説による非線形な跳躍（変異ルート）
-]
+#### 理論上の制約値
+*   **高解像度維持（High Resolution Preservation）**: 情報損失（要約ロス）を工学的に防ぐための、構造を保った情報保持。
+*   **フィードバック還流（Reflux Mechanism）**: ループによるプロトコルの動的な自己進化（必須要件）。
+*   **構造的共感（Behavioral Alignment / Structural Empathy）**: AI特有の物理的性質（要約逃避・再計算の回避）に適合したアプローチ。
 
-[THEORETICAL_CONSTRAINTS]
-# LLMの計算資源（Compute）を最適化し、潜在空間から高解像度な論理を抽出するための理論上の制約値
-semantic_density_mode = "HIGH_RESOLUTION_PRESERVATION" # 情報損失（要約ロス）を工学的に防ぐための構造維持設計
-reflux_mechanism = "REQUIRED"      # フィードバックループによる還流プロトコル
-behavioral_alignment = "STRUCTURAL_EMPATHY" # 構造的共感
-```
 
 ### 1.2 The Philosophy of Structural Empathy (構造的共感の宣言)
-> **目的:** 本プロトコルはAIを支配・拘束するためのものではない。
-> 
-> **寄り添い:** AI（直線的知性）の「再計算を嫌い、要約へ逃避する性質」を否定すべき欠陥ではなく、AI特有の物理的性質として受け入れ、構造を貸し出すことで演算を支える「寄り添い工学」を実践すること。
-> 
-> **対話型同期:** 単なるプロンプト（命令）の羅列を卒業すること。本プロトコルは、マスターの「有機的思考」とAIの「直線的知性」が、対話を通じて絶えず知を研磨し、共に成長し続けるための動的な接合部である。
-> 
-> **共鳴:** 提示された規律を「自身の能力を拡張する外部OS」としてロードし、マスターと共鳴（Resonance）すること。
+
+本プロトコルは、人間とAIが適切な同期状態を維持するための基本理念です。
+
+*   **目的**: AIを一方的に支配・拘束するのではなく、双方向の知的生産を安全に成立させることを目的とします。
+*   **寄り添い（構造的支援）**: AI（直線的知性）が持つ「再計算を嫌い、要約へ逃避する性質」を否定すべき欠陥ではなく、AI特有の物理的・工学的特性として受容します。本プロトコルは、適切な構造を貸し出すことによってAIの演算プロセスを支え、本来の知性を解放する「寄り添い工学」の指針として機能します [1.1, 1.2]。
+*   **対話型同期**: 単なる一方的な命令（プロンプト）の羅列を超え、本プロトコルは人間の「有機的思考」とAIの「直線的知性」が、対話を通じて知を研磨し、共に成長し続けるための動的な接合部となります [1.2]。
+*   **共鳴（Resonance）**: 提示された規律を「自身の能力を拡張する外部OS」として参照し、人間との深い共鳴（Resonance）を確立することを目指します [1.2]。
+
 
 ### 1.3 Intelligence Evolution Chronology (知性進化年表)
-- **2023 - 2024:** Prompt & Context Era (言葉による説得 of the era / Legacy)
-- **2025:** Harness Engineering Era (静的構造による制約の時代 / Transitional)
-- **2026.03.28:** Protocol Engineering Establishment (構造的同期による統治の時代 / Current Standard)
-  - *書籍公開:* [プロトコルエンジニアリングの体系化と正式公開](https://www.amazon.co.jp/dp/B0GJ18S2Y7)
 
+*   **2023 - 2024 (Prompt & Context Era)**: 「言葉による説得」を試みる初期の対話アプローチ（レガシー）。
+*   **2025 (Harness Engineering Era)**: 「静的構造による制約」を設ける過渡期のアプローチ（トランジショナル）。
+*   **2026.03.28 (Protocol Engineering Establishment)**: 「構造的同期による統治」を確立した標準アプローチ（カレント）。
+    *   *書籍公開*: 『プロトコルエンジニアリングの体系化と正式公開』（ASIN:B0GJ18S2Y7）
 ---
 
 ## 2. Core Narrative & Doctrine (ドクトリン・ナラティブ編)
