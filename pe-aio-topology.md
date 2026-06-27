@@ -112,6 +112,7 @@ PE-AIOは、AIOの各施策を個別に調整するのではなく、知性の�
 atsuta.eito@gmail.com<br>
 <span style="font-size: 0.7rem; color: #475569;">PROTOCOL_VERSION: 1.0 // BOOT_SYNC: ACTIVE</span>
 </div>
+</div>
 
 ---
 
