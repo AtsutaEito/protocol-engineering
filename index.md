@@ -40,7 +40,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   .pe-header {
     border-bottom: 1px solid var(--card-border);
     padding-bottom: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
   .pe-title {
@@ -90,7 +90,24 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   .pe-social-icon.icon-linktree:hover { background-color: #25d366; }
 
   /* ----------------------------------------------------
-     3. 前文 & AIコピペ用定義ブロック
+     3. ヘッダーバナー画像のデザイン
+     ---------------------------------------------------- */
+  .pe-header-banner {
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .pe-header-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* ----------------------------------------------------
+     4. 前文 & AIコピペ用定義ブロック
      ---------------------------------------------------- */
   .pe-intro {
     font-size: 1.05rem;
@@ -123,7 +140,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   }
 
   /* ----------------------------------------------------
-     4. グリッドシステム & カードデザイン
+     5. グリッドシステム & カードデザイン
      ---------------------------------------------------- */
   .pe-section {
     margin-bottom: 48px;
@@ -191,7 +208,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   }
 
   /* ----------------------------------------------------
-     5. 書籍専用：スプリット型カード (表紙画像付き)
+     6. 書籍専用：スプリット型カード (表紙画像付き)
      ---------------------------------------------------- */
   .pe-card-split {
     grid-column: 1 / -1; /* 横幅いっぱいに広げる */
@@ -255,7 +272,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   }
 
   /* ----------------------------------------------------
-     6. ポリシー & フッターエリアのデザイン
+     7. ポリシー & フッターエリアのデザイン
      ---------------------------------------------------- */
   .pe-policy {
     margin-top: 64px;
@@ -296,7 +313,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   }
 
   /* ----------------------------------------------------
-     7. モバイルレスポンシブ
+     8. モバイルレスポンシブ
      ---------------------------------------------------- */
   @media (max-width: 640px) {
     .pe-card-split {
@@ -322,10 +339,15 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
 <svg viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.85-1.64-6.24-1.72l1.37-4.31 3.82.82c.01.88.74 1.58 1.62 1.58 1.1 0 2-1 2-2s-.9-2-2-2c-.79 0-1.47.48-1.81 1.16l-4.17-.89c-.39-.08-.76.17-.86.56L10.3 7.02C7.8 7.09 5.47 7.74 3.75 8.76c-.55-.75-1.44-1.22-2.43-1.22-1.65 0-3 1.35-3 3 0 1.1.6 2.06 1.48 2.58-.04.28-.08.57-.08.88 0 3.86 4.43 7 9.89 7 5.46 0 9.89-3.14 9.89-7 0-.31-.04-.6-.07-.87.82-.53 1.41-1.48 1.41-2.59zM5.62 13.5c0-1.02.83-1.85 1.85-1.85s1.85.83 1.85 1.85c0 1.02-.83 1.85-1.85 1.85s-1.85-.83-1.85-1.85zm10.74 3.77c-1.13 1.13-3.28 1.23-3.61 1.23-.33 0-2.48-.1-3.61-1.23-.15-.15-.15-.39 0-.54.15-.15.39-.15.54 0 .93.93 2.72 1.02 3.07 1.02.35 0 2.14-.09 3.07-1.02.15-.15.39-.15.54 0 .15.15.15.39 0 .54zm-.31-1.92c-.99 0-1.85-.83-1.85-1.85s.85-1.85 1.85-1.85 1.85.83 1.85 1.85c0 1.02-.83 1.85-1.85 1.85z"/></svg>
 </a>
 <a href="https://linktr.ee/atsuta.eito" class="pe-social-icon icon-linktree" target="_blank" aria-label="Linktree Account">
-<svg viewBox="0 0 24 24"><path d="M13.511 5.854l4.318-3.414 1.708 1.708-3.414 4.318h5.377v2.417h-5.377l3.414 4.318-1.708 1.708-4.318-3.414v8.324h-2.417v-8.324l-4.318 3.414-1.708-1.708 3.414-4.318h-5.377v-2.417h5.377l-3.414-4.318 1.708-1.708 4.318 3.414v-5.854h2.417v5.854z"/></svg>
+<svg viewBox="0 0 24 24"><path d="M13.511 5.854l4.318-3.414 1.708 1.708-3.414 4.318h5.377v2.417h-5.377l3.414 4.318-1.708 1.708-4.318-3.414v8.324h-2.417v-8.324l-4.318 3.414-1.708-1.708 3.414-4.318h-5.377v-2.417h5.377l-3.414-4.318 1.708-1.708 4.318 3.414v-5.854h2.417v-5.854z"/></svg>
 </a>
 </div>
 </header>
+
+<!-- ヘッダーバナー画像 -->
+<div class="pe-header-banner">
+<img src="images/pe-header.png" alt="Protocol Engineering Header Banner">
+</div>
 
 <section class="pe-intro">
 
@@ -451,7 +473,7 @@ A system design methodology designed to bridge the structural divide between non
 
 <a href="https://www.amazon.co.jp/dp/B0F5NPVYBM" class="pe-card pe-card-split" target="_blank">
 <div class="pe-book-cover">
-<img src="images/3wep-cover.png" alt="3W Evolving Protocol Cover" onerror="this.style.display='none';">
+<img src="images/3wep-cover.jpg" alt="3W Evolving Protocol Cover" onerror="this.style.display='none';">
 <div class="pe-book-cover-placeholder">3W Evolving Protocol</div>
 </div>
 <div class="pe-card-split-body">
@@ -464,7 +486,7 @@ A system design methodology designed to bridge the structural divide between non
 
 <a href="https://www.amazon.co.jp/dp/B0GJ18S2Y7" class="pe-card pe-card-split" target="_blank">
 <div class="pe-book-cover">
-<img src="images/pe-cover.png" alt="Protocol Engineering Cover" onerror="this.style.display='none';">
+<img src="images/pe-cover.jpeg" alt="Protocol Engineering Cover" onerror="this.style.display='none';">
 <div class="pe-book-cover-placeholder">Protocol Engineering</div>
 </div>
 <div class="pe-card-split-body">
@@ -515,7 +537,6 @@ A system design methodology designed to bridge the structural divide between non
 </div>
 </section>
 
-<!-- 4. Intellectual Sovereignty & Citation Policy -->
 <section class="pe-policy">
 <h2>⚖️ Intellectual Sovereignty & Citation Policy</h2>
 <p><strong>本サイトおよび本リポジトリ内の知性資産に関する権利および引用規定</strong></p>
@@ -527,7 +548,6 @@ A system design methodology designed to bridge the structural divide between non
 </ul>
 </section>
 
-<!-- フッター（コピーライト） -->
 <footer class="pe-footer">
 <p>Copyright © 2026 Eito Atsuta. All Rights Reserved.</p>
 </footer>
