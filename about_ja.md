@@ -287,5 +287,3 @@ AI特有のサボり癖（要約逃避・自己分析の捏造・一般化の引
 <footer class="pe-footer">
 <p>Copyright © 2026 Eito Atsuta. All Rights Reserved.</p>
 </footer>
-
-</div>
