@@ -16,7 +16,11 @@ description: 次世代の推論エンジンに最適化された、新次元のA
 
 次世代の推論エンジンに最適化された、新次元の **AIO（AI検索最適化）エンジニアリング・サービス**。
 
-$$\text{PE-AIO} = \text{LLMO（知性構築）} + \text{Delivery（ナビゲーション）}$$
+<div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 20px; margin: 28px 0; border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<strong style="color: #0f172a; font-size: 1.1rem; display: block; margin-bottom: 12px; letter-spacing: 0.02em;">【PE-AIOのシステム構成】</strong>
+<div style="font-size: 1.15rem; font-weight: 700; color: #0f172a; overflow-x: auto; white-space: nowrap; padding-bottom: 5px; line-height: 1.4;">
+PE-AIO = LLMO（知性構築） + Delivery（ナビゲーション）
+</div>
 
 <div style="display: flex; gap: 24px; align-items: center; margin: 28px 0; background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 24px; box-shadow: var(--shadow-sm);">
 <div style="flex-shrink: 0; width: 140px; height: 140px; background-color: #0f172a; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ffffff; font-family: sans-serif; font-weight: bold; border: 1px solid #1e293b;">
