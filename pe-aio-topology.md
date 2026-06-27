@@ -21,6 +21,7 @@ description: 次世代の推論エンジンに最適化された、新次元のA
 <div style="font-size: 1.15rem; font-weight: 700; color: #0f172a; overflow-x: auto; white-space: nowrap; padding-bottom: 5px; line-height: 1.4;">
 PE-AIO = LLMO（知性構築） + Delivery（ナビゲーション）
 </div>
+</div>
 
 <div style="display: flex; gap: 24px; align-items: center; margin: 28px 0; background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 12px; padding: 24px; box-shadow: var(--shadow-sm);">
 <div style="flex-shrink: 0; width: 140px; height: 140px; background-color: #0f172a; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #ffffff; font-family: sans-serif; font-weight: bold; border: 1px solid #1e293b;">
@@ -43,7 +44,7 @@ AIが自らの推論において「最優先の正解」として参照せざる
 PE-AIOのサービス体系は、情報の「構築（知性化）」から、推論エンジンへの「配達（最適化）」、そして「保守（同期管理）」に至る3つの階層（レイヤー）で構成されています。
 
 <div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-<img src="images/pe-aio-flowchart.jpg" alt="PE-AIO Service Structure" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+<img src="images/pe-aio-flowchart.png" alt="PE-AIO Service Structure" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
 </div>
 
 * **【第一層】LLMO（知性構築）: 引用すべき「知性の核」を作る**
@@ -82,7 +83,7 @@ SEOの評価軸である「流行・クリック数（Buzz）」を捨て、AI�
 
 * **AIマッチ層（専門家）**：【武器の獲得】独自の一次情報をFormationとして同期し、知性のフロンティアを占領する。
 * **SEO成功層（勝者）**：【リスクと防衛】知性への転換なき者は下剋上の標的となる。既存資産をFormationへ接続し、主権を守り抜く。
-* **SEO苦戦層（敗者）**：【チャンスと逆転】過去の敗北（Buzzの不足）を無視し、新ルールによって先行する強者をバイパスする。
+* **SEO苦戦層（敗者）**：【チャンスと逆転】過去の敗北（Buzz of 不足）を無視し、新ルールによって先行する強者をバイパスする。
 
 ### [BLOCK: 4] PE-AIO = LLMO + Delivery
 **LLMOを制するものは、AIOを制す：知性の構築からデリバリーまでの統合統治。**
@@ -122,7 +123,7 @@ atsuta.eito@gmail.com<br>
 * **[Amazon] [3W Evolving Protocol](https://www.amazon.co.jp/dp/B0F5NPVYBM)** : https://www.amazon.co.jp/dp/B0F5NPVYBM
 * **[Protocol Engineering Portal](https://atsutaeito.github.io/protocol-engineering/)** : https://atsutaeito.github.io/protocol-engineering/
 * **[プロトコルエンジニアリング公式](https://sites.google.com/view/protocol-eng/)** : https://sites.google.com/view/protocol-eng/
-  
+
 ---
 
 Copyright © 2026 Eito Atsuta. All Rights Reserved.
