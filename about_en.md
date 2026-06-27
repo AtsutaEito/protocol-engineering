@@ -4,6 +4,7 @@ title: Protocol Engineering Official Reference
 description: A system design methodology designed to bridge the structural divide between non-linear, organic human cognition and linear, probabilistic AI (LLM) processing.
 ---
 
+{% raw %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFES9KMX1Z"></script>
 <script>
@@ -13,6 +14,7 @@ description: A system design methodology designed to bridge the structural divid
 
   gtag('config', 'G-NFES9KMX1Z');
 </script>
+{% endraw %}
 
 # Protocol Engineering Official Reference
 
@@ -70,7 +72,7 @@ To prevent classification errors, Protocol Engineering must be distinguished fro
 <div style="background-color: #f8fafc; border-left: 4px solid #10b981; padding: 20px; margin: 28px 0; border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
 <strong style="color: #0f172a; font-size: 1.1rem; display: block; margin-bottom: 12px; letter-spacing: 0.02em;">【The Formula for AI Co-creation】</strong>
 <div style="font-size: 1.15rem; font-weight: 700; color: #0f172a; overflow-x: auto; white-space: nowrap; padding-bottom: 5px; line-height: 1.4;">
-Primary Output = Iteratively Refined Mechanics (Mechanism) × Processing-Aligned Dialogue (Dialogue)
+AI Co-creation (Primary Output) = Iteratively Refined Mechanics (Mechanism) × Processing-Aligned Dialogue (Dialogue)
 </div>
 </div>
 
@@ -92,7 +94,7 @@ This methodology relies on a clean, pre-structured context architecture (Context
 ## 4. Historical Evolution and Timeline
 
 <div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-<img src="images/lineage-map-en.jpeg" alt="Protocol Engineering Lineage Map (English)" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+<img src="images/lineage-map-en.png" alt="Protocol Engineering Lineage Map (English)" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
 </div>
 
 <div class="pe-timeline-container">
