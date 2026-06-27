@@ -3,7 +3,15 @@ layout: default
 title: Canonical AI Gateway | プロトコルエンジニアリング公式
 description: 有機的思考を持つ人間と、直線的思考を持つAI（LLM）の間の構造的断絶を前提とし、自然言語と構造化データの同期を通じて知性の主権を維持する「プロトコルエンジニアリング」のポータルゲートウェイ。
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFES9KMX1Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-NFES9KMX1Z');
+</script>
 <style>
   /* ----------------------------------------------------
      1. 全体レイアウト & デザインシステム
