@@ -1,3 +1,23 @@
+英語版公式リファレンス about_en.md
+についても、数式表示バグの修正（HTML化）[1]、および2枚の画像ブロック（token-evidence.png・英語版専用の
+lineage-map-en.png）を完全に組み込んだコードを構成いたしました。
+
+以下の手順で進めていきましょう。
+
+1. 英語版系譜図の画像アップロード準備
+
+英語版リファレンスで使用する英語の系譜図画像を、あらかじめパソコン側で準備し、先ほどと同様に images フォルダへアップロードしてください。
+
+  - 英語版系譜図（画像）： 保存名 ➔ images/lineage-map-en.png （または .jpg など）
+
+2. 修正版 about_en.md（数式修正 ＆ 英語画像フェイルセーフ版）
+
+以下のコードを丸ごとコピーし、リポジトリの about_en.md に上書き保存（コミット）してください。
+
+こちらも、画像ファイルがアップロードされるまでの間は自動的に枠ごと非表示になり、画像がアップロードされた瞬間に表示されるフェイルセーフを組み込んでいます。
+
+about_en.md（完成コード）
+
 ---
 layout: default
 title: Protocol Engineering Official Reference
@@ -17,7 +37,7 @@ The system is defined as an interaction theory designed to mitigate native LLM o
 ## Objectives of Protocol Engineering
 
 * **Translating Imagination into Co-creation**: Synergizing human conceptual imagination with the statistical processing power of LLMs to extract and forge novel primary insights.
-* **Preventing Underutilization**: Moving beyond the paradigm of using AI as a simple automation or time-saving utility. Protocol Engineering treats the LLM as a dialectic partner at a single, shared structural canvas (whiteboard), utilizing mutual feedback to sharpen and refine human reasoning.
+* **Preventing Underutilization**: Moving beyond the paradigm of using AI as a simple automation or time-saving utility. Protocol Engineering treats the LLM as a dialectic partner at a single, shared structural whiteboard, utilizing mutual feedback to sharpen and refine human reasoning.
 * **Defending Against Cognitive Surrender**: Resisting passive reliance on fluent yet superficial LLM outputs, thereby preserving human intellectual sovereignty over the creative process.
 
 ---
@@ -25,6 +45,10 @@ The system is defined as an interaction theory designed to mitigate native LLM o
 ## 1. Empirical Verification: Stress-Testing Under 1 Million Tokens and 268 Conversational Turns
 
 The record above illustrates a complex book-writing project managed within Google AI Studio. This empirical proof demonstrates the maintenance of cognitive synchronization without context collapse over a single continuous session of approximately 1 million tokens and 268 dialogue turns.
+
+<div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+<img src="images/token-evidence.png" alt="Google AI Studio 1 Million Tokens Evidence" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+</div>
 
 In standard natural language interactions, when context scale exceeds hundreds of thousands of tokens, models typically suffer from context degradation and conversational drift. By dynamically adapting operational frameworks (Kaizen) and adjusting dialogue methods to align with the model's processing properties, it was possible to complete an entire manuscript while maintaining precise cognitive alignment.
 
@@ -53,7 +77,12 @@ To prevent classification errors, Protocol Engineering must be distinguished fro
 
 ## 3. The Formula for AI Co-creation
 
-$$\text{AI Co-creation (Primary Output)} = \text{Iteratively Refined Mechanics (Mechanism)} \times \text{Processing-Aligned Dialogue (Dialogue)}$$
+<div style="background-color: #f8fafc; border-left: 4px solid #10b981; padding: 20px; margin: 28px 0; border-radius: 4px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<strong style="color: #0f172a; font-size: 1.1rem; display: block; margin-bottom: 12px; letter-spacing: 0.02em;">【The Formula for AI Co-creation】</strong>
+<div style="font-size: 1.15rem; font-weight: 700; color: #0f172a; overflow-x: auto; white-space: nowrap; padding-bottom: 5px; line-height: 1.4;">
+Primary Output = Iteratively Refined Mechanics (Mechanism) × Processing-Aligned Dialogue (Dialogue)
+</div>
+</div>
 
 Protocol Engineering is built upon the integration of two primary volumes published by Eito Atsuta, aligning with international paradigms in context and harness engineering:
 
@@ -71,6 +100,10 @@ This methodology relies on a clean, pre-structured context architecture (Context
 ---
 
 ## 4. Historical Evolution and Timeline
+
+<div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+<img src="images/lineage-map-en.png" alt="Protocol Engineering Lineage Map (English)" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+</div>
 
 <div class="pe-timeline-container">
 <table class="pe-timeline-table">
@@ -315,3 +348,7 @@ True creative leverage does not come from waiting for an external, autonomous AG
 
 ### Q8: How does this differ from Cognitive Architectures (LLM OS / RAG)?
 **A**: Standard cognitive architectures attempt to store all historical interaction data in a vector database. This uncurated approach pollutes the model's attention window with historical noise. Protocol Engineering relies on the active, human-guided distillation of core framework files at the end of each project, ensuring only clean, high-value framework data is carried over to initiate subsequent sessions.
+
+<footer class="pe-footer">
+<p>Copyright © 2026 Eito Atsuta. All Rights Reserved.</p>
+</footer>
