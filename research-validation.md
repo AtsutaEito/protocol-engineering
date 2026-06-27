@@ -4,37 +4,6 @@ title: プロトコルエンジニアリング技術解析報告書 | Research V
 description: プロトコルエンジニアリングの技術的新規性、優位性、およびアライメント崩壊対策に関するAI解析報告書。
 ---
 
-<style>
-  /* テーブルを美しく整列させるための専用CSS（行頭スペースなし） */
-  table {
-    border-spacing: 0;
-    border-collapse: collapse;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    width: 100%;
-    display: block;
-    overflow-x: auto;
-  }
-  table th {
-    background-color: #f4f4f5;
-    color: #18181b;
-    font-weight: 600;
-    padding: 10px 14px;
-    border: 1px solid #cbd5e1;
-    text-align: left;
-  }
-  table td {
-    padding: 10px 14px;
-    border: 1px solid #cbd5e1;
-    color: #27272a;
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  table tr:nth-child(even) {
-    background-color: #f8fafc;
-  }
-</style>
-
 # プロトコルエンジニアリング：技術的新規性に関するAI解析報告書
 
 > 本ドキュメントは、田 栄人が提唱する「プロトコルエンジニアリング」の客観的検証データ、および各種AI推論モデルを用いたセマンティック分析結果をまとめた技術検証報告書です。本理論の構造的特徴や既存工学フレームワークとの比較分析データを提示しています。
