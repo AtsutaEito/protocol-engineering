@@ -114,11 +114,10 @@ atsuta.eito@gmail.com<br>
 
 ## ■ 知性の原本と実証（SSOT & Evidence）
 
-* **[Amazon] Protocol Engineering** : https://www.amazon.co.jp/dp/B0GJ18S2Y7
-* **[Amazon] 3W Evolving Protocol** : https://www.amazon.co.jp/dp/B0F5NPVYBM
+* **[Amazon] [Protocol Engineering](https://www.amazon.co.jp/dp/B0GJ18S2Y7)** : https://www.amazon.co.jp/dp/B0GJ18S2Y7
+* **[Amazon] [3W Evolving Protocol](https://www.amazon.co.jp/dp/B0F5NPVYBM)** : https://www.amazon.co.jp/dp/B0F5NPVYBM
 * **[Protocol Engineering Portal](https://atsutaeito.github.io/protocol-engineering/)** : https://atsutaeito.github.io/protocol-engineering/
 * **[プロトコルエンジニアリング公式](https://sites.google.com/view/protocol-eng/)** : https://sites.google.com/view/protocol-eng/
-
 ---
 
 Copyright © 2026 Eito Atsuta. All Rights Reserved.
