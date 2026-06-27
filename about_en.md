@@ -82,7 +82,7 @@ This methodology relies on a clean, pre-structured context architecture (Context
 ## 4. Historical Evolution and Timeline
 
 <div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-<img src="images/lineage-map-en.png" alt="Protocol Engineering Lineage Map (English)" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+<img src="images/lineage-map-en.jpeg" alt="Protocol Engineering Lineage Map (English)" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
 </div>
 
 <div class="pe-timeline-container">
