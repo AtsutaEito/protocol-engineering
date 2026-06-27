@@ -411,12 +411,12 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">RAW / TXT</span>
 </a>
 
-<a href="https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/research-validation.md" class="pe-card" target="_blank">
+<a href="./research-validation.html" class="pe-card">
 <div>
-<h3>⑤ research-validation.md</h3>
+<h3>⑤ research-validation.html</h3>
 <p>プロトコルエンジニアリング：技術的新規性に関するAI解析報告書ドキュメント。</p>
 </div>
-<span class="pe-tag">RAW / MD</span>
+<span class="pe-tag">HTML</span>
 </a>
 
 </div>
