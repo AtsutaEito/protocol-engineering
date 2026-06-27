@@ -3,7 +3,15 @@ layout: default
 title: プロトコルエンジニアリング（Protocol Engineering）公式リファレンス
 description: 有機的思考を持つ人間と、直線的思考を持つAI（LLM）の間の構造的断絶を前提とし、自然言語による説得（プロンプト）と構造化データ（プロトコル）をハイブリッドに用いることで、思考の同期を維持したまま対話を続ける設計手法。
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFES9KMX1Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-NFES9KMX1Z');
+</script>
 # プロトコルエンジニアリング（Protocol Engineering）公式リファレンス
 
 提唱者：田栄人(Eito Atsuta)
