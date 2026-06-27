@@ -44,7 +44,7 @@ AIが自らの推論において「最優先の正解」として参照せざる
 PE-AIOのサービス体系は、情報の「構築（知性化）」から、推論エンジンへの「配達（最適化）」、そして「保守（同期管理）」に至る3つの階層（レイヤー）で構成されています。
 
 <div style="width: 100%; margin: 24px 0; border: 1px solid #e4e4e7; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-<img src="images/pe-aio-flowchart.png" alt="PE-AIO Service Structure" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
+<img src="images/pe-aio-flowchart.jpg" alt="PE-AIO Service Structure" style="width: 100%; height: auto; display: block;" onerror="this.parentElement.style.display='none';">
 </div>
 
 * **【第一層】LLMO（知性構築）: 引用すべき「知性の核」を作る**
