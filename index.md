@@ -340,7 +340,8 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
 <div class="pe-container">
 
 <header class="pe-header">
-<h1 class="pe-title">Protocol Engineering Canonical Gateway</h1>
+<div style="font-size: 0.95rem; font-weight: 700; color: #10b981; letter-spacing: 0.05em; margin-bottom: 6px; text-transform: uppercase;">プロトコルエンジニアリング</div>
+<h1 class="pe-title" style="margin-top: 0; margin-bottom: 16px;">Protocol Engineering Canonical Gateway</h1>
 <div class="pe-social-links">
 <a href="https://x.com/UDIHYvCdbw37569" class="pe-social-icon icon-x" target="_blank" aria-label="X Account">
 <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
