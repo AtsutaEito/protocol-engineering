@@ -3,6 +3,7 @@ layout: default
 title: Protocol Engineering Official Reference
 description: A system design methodology designed to bridge the structural divide between non-linear, organic human cognition and linear, probabilistic AI (LLM) processing.
 ---
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFES9KMX1Z"></script>
 <script>
@@ -12,6 +13,7 @@ description: A system design methodology designed to bridge the structural divid
 
   gtag('config', 'G-NFES9KMX1Z');
 </script>
+
 # Protocol Engineering Official Reference
 
 Proponent: Eito Atsuta
