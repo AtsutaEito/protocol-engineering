@@ -12,7 +12,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
   gtag('js', new Date());
 
   gtag('config', 'G-NFES9KMX1Z');
-</script
+</script>
   
 <style>
   /* ----------------------------------------------------
