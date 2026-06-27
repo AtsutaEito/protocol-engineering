@@ -1,0 +1,5 @@
+title: "Protocol Engineering Canonical Gateway | プロトコルエンジニアリング公式"
+description: "有機的思考を持つ人間と、直線的思考を持つAI（LLM）の間の構造的断絶を前提とし、自然言語と構造化データの同期を通じて知性の主権を維持するプロトコルエンジニアリング公式ゲートウェイ。"
+baseurl: "/protocol-engineering"
+plugins:
+  - jekyll-sitemap
