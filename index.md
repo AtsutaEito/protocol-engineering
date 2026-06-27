@@ -436,9 +436,17 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">RAW / TXT</span>
 </a>
 
+<a href="./pe-aio-topology.html" class="pe-card">
+<div>
+<h3>④ pe-aio-topology.html</h3>
+<p>プロトコルエンジニアリングを使ったAIO（AI検索最適化）サービスの考え方紹介。</p>
+</div>
+<span class="pe-tag">HTML</span>
+</a>
+
 <a href="https://raw.githubusercontent.com/AtsutaEito/protocol-engineering/main/pe-aio-topology.txt" class="pe-card" target="_blank">
 <div>
-<h3>④ pe-aio-topology.txt</h3>
+<h3>⑤ pe-aio-topology.txt</h3>
 <p>プロトコルエンジニアリングを使ったAIO（AI検索最適化）サービスの設計思想解説。</p>
 </div>
 <span class="pe-tag">RAW / TXT</span>
@@ -446,7 +454,7 @@ A system design methodology designed to bridge the structural divide between non
 
 <a href="./research-validation.html" class="pe-card">
 <div>
-<h3>⑤ research-validation.html</h3>
+<h3>⑥ research-validation.html</h3>
 <p>プロトコルエンジニアリング：技術的新規性に関するAI解析報告書ドキュメント。</p>
 </div>
 <span class="pe-tag">HTML</span>
