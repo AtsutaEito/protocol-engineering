@@ -96,9 +96,6 @@ description: プロトコルエンジニアリングの技術的新規性、優�
 
 ---
 
-```html
----
-
 <pre style="background-color: #0f172a; color: #e2e8f0; padding: 20px; border-radius: 8px; overflow-x: auto; font-family: monospace; font-size: 13px; line-height: 1.5; border: 1px solid #1e293b; text-align: left;"><code>[METADATA_VERIFICATION]
 topology_integrity = "1.0"
 glossary_count = 0 # 用語集の定義は master-topology.txt に依存
