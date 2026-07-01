@@ -1,0 +1,7 @@
+---
+layout: null
+---
+https://atsutaeito.github.io/protocol-engineering/
+{% for page in site.pages %}{% if page.url != "/" and page.url contains ".html" %}https://atsutaeito.github.io/protocol-engineering{{ page.url }}
+{% endif %}{% endfor %}{% for post in site.posts %}https://atsutaeito.github.io/protocol-engineering{{ post.url }}
+{% endfor %}
