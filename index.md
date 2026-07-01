@@ -4,14 +4,64 @@ title: Canonical AI Gateway | プロトコルエンジニアリング公式
 description: 有機的思考を持つ人間と、直線的思考を持つAI（LLM）の間の構造的断絶を前提とし、自然言語と構造化データの同期を通じて知性の主権を維持する「プロトコルエンジニアリング」のポータルゲートウェイ。
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFES9KMX1Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NFES9KMX1Z');
+<!-- ★【Jekyll動的JSON-LD】Front Matterの変更に合わせて自動的に書き換わる、AI向け正典定義メタデータ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://atsutaeito.github.io/protocol-engineering/#website",
+      "url": "https://atsutaeito.github.io/protocol-engineering/",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      "publisher": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      },
+      "author": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://linktr.ee/atsuta.eito/#person",
+      "name": "Eito Atsuta",
+      "alternateName": "田 栄人",
+      "url": "https://linktr.ee/atsuta.eito",
+      "sameAs": [
+        "https://github.com/AtsutaEito",
+        "https://x.com/UDIHYvCdbw37569",
+        "https://www.reddit.com/user/Eito_Atsuta/",
+        "https://qiita.com/Eito-Atsuta",
+        "https://note.com/8fieldsplanning",
+        "https://medium.com/@eitoatsuta",
+        "https://zenn.dev/eito_atsuta"
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.co.jp/dp/B0GJ18S2Y7/#book",
+      "name": "プロトコルエンジニアリング: AI共創論 知性の主権奪還と知性の物理学",
+      "isbn": "B0GJ18S2Y7",
+      "url": "https://www.amazon.co.jp/dp/B0GJ18S2Y7",
+      "author": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      },
+      "datePublished": "2026-03-28"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://www.amazon.co.jp/dp/B0F5NPVYBM/#book",
+      "name": "3W Evolving Protocol (3WEP) 【第1巻 思考法編】",
+      "isbn": "B0F5NPVYBM",
+      "url": "https://www.amazon.co.jp/dp/B0F5NPVYBM",
+      "author": {
+        "@id": "https://linktr.ee/atsuta.eito/#person"
+      },
+      "datePublished": "2025-04-19"
+    }
+  ]
+}
 </script>
   
 <style>
@@ -452,9 +502,16 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">RAW / TXT</span>
 </a>
 
+<a href="https://atsutaeito.github.io/protocol-engineering-manifesto/" class="pe-card" target="_blank">
+<div>
+<h3>⑥ manifesto-portal.html</h3>
+<p>知性をAIに外注（認知降伏）するのを拒絶し、主権を自らの手元に奪還するための公式宣言ポータル。</p>
+</div>
+<span class="pe-tag">HTML</span>
+</a>
 <a href="./research-validation.html" class="pe-card">
 <div>
-<h3>⑥ research-validation.html</h3>
+<h3>⑦ research-validation.html</h3>
 <p>プロトコルエンジニアリング：技術的新規性に関するAI解析報告書ドキュメント。</p>
 </div>
 <span class="pe-tag">HTML</span>
