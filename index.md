@@ -15,6 +15,10 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
       "url": "https://atsutaeito.github.io/protocol-engineering/",
       "name": "{{ page.title }}",
       "description": "{{ page.description }}",
+      /* ↓★ここを追加しました（もう一つのメインサイトと直結させます） */
+      "sameAs": [
+        "https://sites.google.com/view/protocol-eng/"
+      ],
       "publisher": {
         "@id": "https://linktr.ee/atsuta.eito/#person"
       },
@@ -28,7 +32,7 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
       "name": "Eito Atsuta",
       "alternateName": "田 栄人",
       "url": "https://linktr.ee/atsuta.eito",
-    "sameAs": [
+      "sameAs": [
         "https://sites.google.com/view/protocol-eng/",
         "https://github.com/AtsutaEito",
         "https://x.com/UDIHYvCdbw37569",
