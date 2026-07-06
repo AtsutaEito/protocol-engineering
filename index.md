@@ -507,16 +507,25 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">RAW / TXT</span>
 </a>
 
+<a href="https://atsutaeito.github.io/ai-co-creation/" class="pe-card" target="_blank">
+<div>
+<h3>⑥ ai-co-creation.html</h3>
+<p>AI共創とは、脳内イメージを言語化し独自の一次情報を創造すること</p>
+</div>
+<span class="pe-tag">HTML</span>
+</a>
+
 <a href="https://atsutaeito.github.io/protocol-engineering-manifesto/" class="pe-card" target="_blank">
 <div>
-<h3>⑥ manifesto-portal.html</h3>
+<h3>⑦ manifesto-portal.html</h3>
 <p>知性をAIに外注（認知降伏）するのを拒絶し、主権を自らの手元に奪還するための公式宣言ポータル。</p>
 </div>
 <span class="pe-tag">HTML</span>
 </a>
+
 <a href="./research-validation.html" class="pe-card">
 <div>
-<h3>⑦ research-validation.html</h3>
+<h3>⑧ research-validation.html</h3>
 <p>プロトコルエンジニアリング：技術的新規性に関するAI解析報告書ドキュメント。</p>
 </div>
 <span class="pe-tag">HTML</span>
