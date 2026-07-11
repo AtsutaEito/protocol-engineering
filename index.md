@@ -40,7 +40,9 @@ description: 有機的思考を持つ人間と、直線的思考を持つAI（LL
         "https://qiita.com/Eito-Atsuta",
         "https://note.com/8fieldsplanning",
         "https://medium.com/@eitoatsuta",
-        "https://zenn.dev/eito_atsuta"
+        "https://zenn.dev/eito_atsuta",
+        "https://www.docswell.com/user/eitoatsuta",
+        "https://speakerdeck.com/eitoatsuta"
       ]
     },
     {
