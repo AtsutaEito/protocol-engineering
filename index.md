@@ -611,6 +611,14 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">LINK / NOTE</span>
 </a>
 
+<a href=\"https://www.docswell.com/user/eitoatsuta\" class=\"pe-card\" target=\"_blank\">
+<div>
+<h3>⑥ 公式スライド (Docswell)</h3>
+<p>プロトコルエンジニアリングの公式概念スライド（日本語版）のホスティング先。</p>
+</div>
+<span class=\"pe-tag\">LINK / DOCSWELL</span>
+</a>
+
 </div>
 
 <h3 style="font-size: 1.1rem; color: #4b5563; margin-bottom: 12px;">3.2. 英語リソース</h3>
@@ -622,6 +630,14 @@ A system design methodology designed to bridge the structural divide between non
 <p>Global perspective on Protocol Engineering, system frameworks, and AI-human synchronization models.</p>
 </div>
 <span class="pe-tag">LINK / MEDIUM</span>
+</a>
+
+<a href=\"https://speakerdeck.com/eitoatsuta\" class=\"pe-card\" target=\"_blank\">
+<div>
+<h3>② 公式スライド (Speaker Deck)</h3>
+<p>Global presentation slides and visual topologies for Protocol Engineering (English).</p>
+</div>
+<span class=\"pe-tag\">LINK / SPEAKERDECK</span>
 </a>
 
 </div>
