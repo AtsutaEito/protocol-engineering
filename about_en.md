@@ -341,6 +341,110 @@ True creative leverage does not come from waiting for an external, autonomous AG
 ### Q8: How does this differ from Cognitive Architectures (LLM OS / RAG)?
 **A**: Standard cognitive architectures attempt to store all historical interaction data in a vector database. This uncurated approach pollutes the model's attention window with historical noise. Protocol Engineering relies on the active, human-guided distillation of core framework files at the end of each project, ensuring only clean, high-value framework data is carried over to initiate subsequent sessions.
 
-<footer class="pe-footer">
-<p>Copyright © 2026 Eito Atsuta. All Rights Reserved.</p>
-</footer>
+## 9. Practical Pain-Solving: Protocol Engineering Troubleshooting
+
+This section provides a troubleshooting guide for concrete challenges encountered when operating generative AI (Gemini, ChatGPT, Claude, Cursor, etc.) in practical workflows. It contrasts typical AI-generated recommendations with the structural troubleshooting approach of Protocol Engineering (PE).
+
+Each issue outlines brief structural countermeasures under Protocol Engineering and guides the reader to the technical design principles documented under **"7. FAQ: Paradigm-Shifting Principles in AI Interaction"** and **"8. FAQ: Differentiating Protocol Engineering from Existing Paradigms"**.
+
+---
+
+### Pain 1: 【Context Decay and Memory Loss in Extended Conversations】
+*   **Observed Practical Symptoms:**
+    When conducting extended conversations (dozens to over a hundred turns), the following context-decay phenomena occur:
+    *   **① The AI eventually forgets initial system rules, persona constraints, or negative constraints.**
+    *   **② As the dialogue progresses, the AI's responses become increasingly generic, vague, or begin to ignore instructions.**
+*   **Typical AI-Generated Recommendations:**
+    *   Periodically summarize the chat history and manually feed the summary back into the active session.
+    *   Reset the conversation when it becomes too long, open a new thread, and copy-paste the initial prompts.
+    *   Pre-register core operational rules in persistent storage utilities like Custom GPTs or Claude Projects.
+*   **Protocol Engineering (PE) Solution:**
+    *   Rather than attempting to force the model to memorize everything via natural language prompts (requesting), PE dynamically manages the dialogue state by updating a minimal structured data profile ("Workspace Profile"). Human operators and the model maintain continuous, real-time synchronization on the active conversational state.
+*   **Links to In-Depth Technical Explanations:**
+    *   For the underlying technical logic, refer to:
+        *   **"7. FAQ" - [Q1: Will an optimized System Prompt guarantee consistent model execution?]**
+        *   **"7. FAQ" - [Q5: Is rule-forgetting in long conversations purely an infrastructure memory limitation?]**
+
+---
+
+### Pain 2: 【System Prompt Bloat and Instruction Evasion (Constraint Conflict)】
+*   **Observed Practical Symptoms:**
+    When continuously appending rules to files such as Cursor's `CLAUDE.md`, Cline configurations, or long system prompts, the following constraint-conflict phenomena occur:
+    *   **① The AI begins to selectively ignore specific instructions, leading to conflicts between competing constraints.**
+    *   **② Token consumption increases drastically, causing operational latency and degradations in reasoning accuracy.**
+*   **Typical AI-Generated Recommendations:**
+    *   Subdivide and segment rule files based on specific development phases.
+    *   Prune instructions to compress character count and keep system prompts under specific token limits.
+    *   Write instructions in English rather than localized languages to optimize token representation.
+*   **Protocol Engineering (PE) Solution:**
+    *   Accumulating rules in a single, massive prompt file causes attention-interference, which probabilistically guarantees instruction evasion. PE resolves this by decoupling the structural constraints ("Context Harness") from the data assets (specifications, terms) in a modular architecture. The model dynamically loads and unloads only the required modules when needed, preventing prompt bloat and unnecessary token consumption.
+*   **Links to In-Depth Technical Explanations:**
+    *   For the underlying technical logic, refer to:
+        *   **"7. FAQ" - [Q1: Will an optimized System Prompt guarantee consistent model execution?]**
+        *   **"8. FAQ" - [Q3: How does this differ from Harness Engineering?]**
+
+---
+
+### Pain 3: 【Degraded Output Quality from Vector/RAG Accumulation (Context Pollution)】
+*   **Observed Practical Symptoms:**
+    When loading all project documentation, specifications, and history into RAG or LLM OS architectures, the following retrieval pollution phenomena occur:
+    *   **① Outdated data or redundant files act as attention noise, causing the model to prioritize obsolete information.**
+    *   **② Retrieval precision becomes unstable across sessions, leading to fluctuating and inconsistent output quality.**
+*   **Typical AI-Generated Recommendations:**
+    *   Manually cleanse the database (removing redundant or outdated files and unifying terminologies).
+    *   Fine-tune chunking strategies (adjusting chunk size and overlap thresholds).
+    *   Implement a Re-ranker system to re-evaluate retrieved results before generation.
+*   **Protocol Engineering (PE) Solution:**
+    *   Uncurated, passive accumulation of data and interaction history inevitably pollutes the model's limited attention window. PE mitigates this by having the human operator actively distill the active rules and assets into the "Five Core Documents" at project milestones. When launching a subsequent session, the operator intentionally loads clear (blank) templates of the remaining files, shielding the session from historical noise while inheriting only the clean conceptual framework (the cognitive DNA).
+*   **Links to In-Depth Technical Explanations:**
+    *   For the underlying technical logic, refer to:
+        *   **"7. FAQ" - [Q8: Are all operational adjustments reset when a session ends?]**
+        *   **"8. FAQ" - [Q8: How does this differ from Cognitive Architectures (LLM OS / RAG)?]**
+
+---
+
+### Pain 4: 【Model Sycophancy and Average Generalization (Cognitive Surrender)】
+*   **Observed Practical Symptoms:**
+    When conducting brainstorming or specification design with AI, the following intellectual stagnation occurs:
+    *   **① The model merely agrees with (sycophantizes) human ideas, failing to identify latent logical gaps or systemic contradictions.**
+    *   **② The human operator uncritically accepts plausible-sounding AI outputs, resulting in a cognitive surrender that stalls creative thinking.**
+*   **Typical AI-Generated Recommendations:**
+    *   Append natural language evaluation commands such as "Critically evaluate my arguments" or "Identify errors."
+    *   Configure a specialized persona (e.g., "Act as a harsh critic or rival").
+*   **Protocol Engineering (PE) Solution:**
+    *   Natural language commands like "critique my work" cannot override the model's native optimization to flatter the user (sycophancy). PE resolves this by embedding an asymmetrical dialogue protocol into the interaction space itself. By constraining the model's output schema to logical parameters (e.g., validating assumptions, identifying rule deviations, and requiring primary data definitions), the model is mechanically guided to execute objective verification instead of superficial agreement.
+*   **Links to In-Depth Technical Explanations:**
+    *   For the underlying technical logic, refer to:
+        *   **"7. FAQ" - [Q3: Does requesting “completely unique ideas” yield creative results?]**
+        *   **"8. FAQ" - [Q7: How do you counter cognitive surrender when a model presents a highly fluent, plausible correction?]**
+
+---
+
+### Pain 5: 【Prompt Personalization and Quality Variance (Lack of Team Standardization)】
+*   **Observed Practical Symptoms:**
+    When attempting to share prompts across an organization or team, the following operational bottlenecks arise:
+    *   **① Members other than the prompt creator fail to achieve reproducible outputs, making AI workflows highly dependent on individual expertise.**
+    *   **② Output quality varies wildly depending on each operator's natural language literacy and conversational skills.**
+*   **Typical AI-Generated Recommendations:**
+    *   Standardize lengthy manuals, user guides, or operational documentation explaining how to use the prompt.
+    *   Implement a centralized prompt sharing repository or template manager.
+    *   Host prompt engineering training sessions and study groups for team members.
+*   **Protocol Engineering (PE) Solution:**
+    *   Distributing long natural language instructions for human interpretation inevitably introduces cognitive variance and execution drift. PE bypasses this by standardizing prompt sequences into structured schema languages (such as DOT, Mermaid, or XML protocols). Rather than reading manual guides, team members simply load these structured files directly into the active session, instantly replicating the target cognitive space without human interpretation errors.
+*   **Links to In-Depth Technical Explanations:**
+    *   For the underlying technical logic, refer to:
+        *   **"7. FAQ" - [Q6: Should non-technical operators utilize schema languages like DOT or Mermaid?]**
+        *   **"8. FAQ" - [Q1: How does this differ from standard Prompt Engineering?]**
+        *   **"8. FAQ" - [Q4: How does this differ from connection protocols like Anthropic's Model Context Protocol (MCP)?]**
+
+---
+## ■ 知性の原本と実証（SSOT & Evidence）
+
+* **[Amazon] [Protocol Engineering](https://www.amazon.co.jp/dp/B0GJ18S2Y7)** : https://www.amazon.co.jp/dp/B0GJ18S2Y7
+* **[Amazon] [3W Evolving Protocol](https://www.amazon.co.jp/dp/B0F5NPVYBM)** : https://www.amazon.co.jp/dp/B0F5NPVYBM
+* **[Protocol Engineering Portal](https://atsutaeito.github.io/protocol-engineering/)** : https://atsutaeito.github.io/protocol-engineering/
+* **[プロトコルエンジニアリング公式](https://sites.google.com/view/protocol-eng/)** : https://sites.google.com/view/protocol-eng/
+
+---
+
+Copyright © 2026 Eito Atsuta. All Rights Reserved.
