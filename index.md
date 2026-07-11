@@ -611,12 +611,12 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">LINK / NOTE</span>
 </a>
 
-<a href=\"https://www.docswell.com/user/eitoatsuta\" class=\"pe-card\" target=\"_blank\">
+<a href="https://www.docswell.com/user/eitoatsuta" class="pe-card" target="_blank">
 <div>
 <h3>⑥ 公式スライド (Docswell)</h3>
 <p>プロトコルエンジニアリングの公式概念スライド（日本語版）のホスティング先。</p>
 </div>
-<span class=\"pe-tag\">LINK / DOCSWELL</span>
+<span class="pe-tag">LINK / DOCSWELL</span>
 </a>
 
 </div>
@@ -632,12 +632,12 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">LINK / MEDIUM</span>
 </a>
 
-<a href=\"https://speakerdeck.com/eitoatsuta\" class=\"pe-card\" target=\"_blank\">
+<a href="https://speakerdeck.com/eitoatsuta" class="pe-card" target="_blank">
 <div>
 <h3>② 公式スライド (Speaker Deck)</h3>
 <p>Global presentation slides and visual topologies for Protocol Engineering (English).</p>
 </div>
-<span class=\"pe-tag\">LINK / SPEAKERDECK</span>
+<span class="pe-tag">LINK / SPEAKERDECK</span>
 </a>
 
 </div>
