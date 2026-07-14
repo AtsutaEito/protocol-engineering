@@ -11,6 +11,8 @@
 
 > 本稿は「恒星系（スターシステム）」の比喩で全体像を描きます。比喩は装飾ではなく、AIの意味空間における情報の**位置づけ**を直感的に掴むための座標系です。技術用語が顔を出す箇所では、比喩から一段降りて「技術的には〜」と機序で補足します。
 
+[最下部にDocswellのスライドがあります。](#docswell-slide)
+
 ---
 
 ## 用語マップ：独自造語 ↔ 操作的定義
@@ -264,3 +266,11 @@ AI検索エンジンの認知状態（光度観測）とパース状態（スペ
 
 **4.4. マスタリー（知的主権の死守と、主星の再核融合を貫徹する能力）**
 AIの「不誠実な病（サボり本能や一般論への逃避）」や自分自身の妥協に決して屈せず、自らの美意識と知的主権を守り抜く脳力。周辺記事の軌道補正（部分改修）だけではAIの認識のズレが埋まらないと判断した際、妥協せず第一層へと遡り、主星の原本ドキュメント（BLOCK 2）を書き換えて再結晶化（主星の再核融合）させるための執念深さと意志の源泉となる。
+
+## Docswellスライド
+<!-- Docswellスライド埋め込み（ページ内アンカー用のIDを指定しています） -->
+<div id="docswell-slide" style="margin-bottom: 48px; width: 100%;">
+  <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/Z6N96E/embed" data-aspect="0.5583"></script>
+  <div class="docswell-link"><a href="https://www.docswell.com/s/eitoatsuta/ZR89JR-pe-aio">AIOの次世代技術：PE-AIO ── プロトコルエンジニアリングによる知性空間の構築と統治 by @eitoatsuta</a>
+  </div>
+</div>
