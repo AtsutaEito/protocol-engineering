@@ -112,7 +112,7 @@ flowchart TD
     subgraph L1 ["【第一層】LLMO（知性構築）：主星の結晶化"]
         block1[BLOCK 1: IDENTITY & INHERITANCE<br>Sync OS / 原始星]:::blockStyle
         elem1(【要素 1】<br>知性の結晶化<br>主星の結晶化):::elemStyle
-        block2[BLOCK 2: THE SUPREME DOCTRINE<br>知性の結晶 / 主星のコア]:::blockStyle
+        block2[BLOCK 2: THE SUPREME DOCTRINE<br>知性の結晶 / 主星 of コア]:::blockStyle
     end
 
     %% 【第二層】Delivery Optimization（配布最適化）の定義とグループ化
@@ -129,37 +129,37 @@ flowchart TD
     end
 
     %% ─────────────────────────────────────────────────────────────
-    %% 接続関係と動的トリガーの定義（エッジ）
+    %% 接続関係と動的トリガーの定義（エッジ：括弧を含む文字列を完全にダブルクォーテーション化）
     %% ─────────────────────────────────────────────────────────────
 
     %% 1. 起点診断から中央制御器（BLOCK 3）への判定注入
-    diag -->|1. ポジション判定結果の注入| block3
+    diag -->|"1. ポジション判定結果の注入"| block3
 
     %% 2. 中央制御器（BLOCK 3）から各レイヤーへのトリガー放射
-    block3 -->|2-1. 第一層トリガー<br>原始星言語化指令| block1
-    block3 -->|2-2. 第二層トリガー<br>星群軌道計画のデプロイ| elem2
-    block3 -->|2-3. 第三層トリガー<br>定点監査の開始指示| elem3
+    block3 -->|"2-1. 第一層トリガー<br>原始星言語化指令"| block1
+    block3 -->|"2-2. 第二層トリガー<br>星群軌道計画のデプロイ"| elem2
+    block3 -->|"2-3. 第三層トリガー<br>定点監査の開始指示"| elem3
 
     %% --- 第一層内の力学プロセス ---
-    block1 -->|質量・独自性の測定依頼| block5
-    block5 -->|診断フィードバック| elem1
-    elem1 -->|恒星(SSOT)として結晶化| block2
+    block1 -->|"質量・独自性の測定依頼"| block5
+    block5 -->|"診断フィードバック"| elem1
+    elem1 -->|"恒星(SSOT)として結晶化"| block2
 
     %% --- 第二層内の力学プロセス ---
-    block2 -->|主星(SSOT)の重力を統合| elem2
-    elem2 -->|本流拠点サイト宇宙投入| block4
-    block4 -->|衛星記事の軌道配置<br>本流への結合| elem4
+    block2 -->|"主星(SSOT)の重力を統合"| elem2
+    elem2 -->|"本流拠点サイト宇宙投入"| block4
+    block4 -->|"衛星記事の軌道配置<br>本流への結合"| elem4
 
     %% --- 第三層内の力学プロセス ---
-    block4 -->|AI推論回答<br>パース対象| elem3
-    elem3 -->|解釈ズレの検出<br>Audit| block5
-    block5 -->|軌道修正のための補強記事指示| elem4
+    block4 -->|"AI推論回答<br>パース対象"| elem3
+    elem3 -->|"解釈ズレの検出<br>Audit"| block5
+    block5 -->|"軌道修正のための補強記事指示"| elem4
 
     %% 監査 🔁 補強 の往来循環ループ（動的調律の往還）
-    elem4 <-->|補強後の再測定<br>往来循環| elem3
+    elem4 <-->|"補強後の再測定<br>往来循環"| elem3
 
     %% 本流へのフィードバック還流（主星のブラッシュアップ）
-    elem4 -->|周辺発信の収縮統合<br>主星のブラッシュアップ| block2
+    elem4 -->|"周辺発信の収縮統合<br>主星のブラッシュアップ"| block2
 
     %% 各サブグラフ（レイヤー外枠）のカラー・スタイル調整
     style L1 fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray: 5 5,color:#1e3a8a
