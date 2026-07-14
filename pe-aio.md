@@ -270,7 +270,5 @@ AIの「不誠実な病（サボり本能や一般論への逃避）」や自分
 ## Docswellスライド
 <!-- Docswellスライド埋め込み（ページ内アンカー用のIDを指定しています） -->
 <div id="docswell-slide" style="margin-bottom: 48px; width: 100%;">
-  <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/Z6N96E/embed" data-aspect="0.5583"></script>
-  <div class="docswell-link"><a href="https://www.docswell.com/s/eitoatsuta/ZR89JR-pe-aio">AIOの次世代技術：PE-AIO ── プロトコルエンジニアリングによる知性空間の構築と統治 by @eitoatsuta</a>
-  </div>
+ <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/ZR89JR/embed" data-aspect="0.5583"></script><div class="docswell-link"><a href="https://www.docswell.com/s/eitoatsuta/ZR89JR-pe-aio">AIOの次世代技術：PE-AIO ── プロトコルエンジニアリングによる知性空間の構築と統治 by @eitoatsuta</a></div>
 </div>
