@@ -94,120 +94,77 @@ AIは推論時、周辺にある関連情報の「文脈の近さ」をベクト
 
 ---
 
-## 「話題づくり（Buzz）」から「知性づくり（Formation）」を実現するPE-AIOフレームワーク（DOT言語ソース）
+## 「話題づくり（Buzz）」から「知性づくり（Formation）」を実現するPE-AIOフレームワーク
 
-```dot
-digraph PE_AIO_Global_Central_Control_Topology {
-    // グラフ全体の基本設定（上から下へのレイアウト・中央集約設計）
-    rankdir=TB;
-    newrank=true;
-    nodesep=0.5;
-    ranksep=0.6;
-    splines=true;
+ ```mermaid
+flowchart TD
+    %% 全体の共通スタイル（CSSクラス）定義
+    classDef blockStyle fill:#f1f5f9,stroke:#1e293b,stroke-width:2px,color:#0f172a;
+    classDef elemStyle fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+    classDef diagStyle fill:#fff7ed,stroke:#ea580c,stroke-width:2px,color:#c2410c;
+    classDef centralStyle fill:#f0fdfa,stroke:#0d9488,stroke-width:2.5px,color:#115e59,font-weight:bold;
 
-    // ノードおよびエッジの共通フォント・線幅設定
-    node [fontname="Helvetica,Arial,sans-serif", fontsize=10, penwidth=1.5];
-    edge [fontname="Helvetica,Arial,sans-serif", fontsize=9, color="#475569", fontcolor="#0f172a"];
+    %% 起点・中央制御器の定義
+    diag{知性づくり診断<br>スタート地点：質量・独自性検証}:::diagStyle
+    block3[BLOCK 3: MARKET GOVERNANCE<br>市場統治 / 軌道設計<br>★ 中央制御器<br>・AIマッチ層（専門家）<br>・SEO成功層（勝者）<br>・SEO苦戦層（敗者）]:::centralStyle
 
-    // ─────────────────────────────────────────────────────────────
-    // ノードの定義
-    // ─────────────────────────────────────────────────────────────
+    %% 【第一層】LLMO（知性構築）の定義とグループ化
+    subgraph L1 ["【第一層】LLMO（知性構築）：主星の結晶化"]
+        block1[BLOCK 1: IDENTITY & INHERITANCE<br>Sync OS / 原始星]:::blockStyle
+        elem1(【要素 1】<br>知性の結晶化<br>主星の結晶化):::elemStyle
+        block2[BLOCK 2: THE SUPREME DOCTRINE<br>知性の結晶 / 主星のコア]:::blockStyle
+    end
 
-    // 【起点：診断ダイヤ】
-    diag [shape=diamond, style="filled", color="#ea580c", fillcolor="#fff7ed", fontcolor="#c2410c", penwidth=2.0,
-          label="知性づくり診断\n(スタート地点：質量・独自性検証)"];
+    %% 【第二層】Delivery Optimization（配布最適化）の定義とグループ化
+    subgraph L2 ["【第二層】Delivery Optimization（配布最適化）：恒星系の形成"]
+        elem2(【要素 2】<br>知性空間の物理配置<br>本流デプロイ):::elemStyle
+        block4[BLOCK 4: PE-AIO = LLMO + Delivery<br>拠点配置 / 宇宙への投入]:::blockStyle
+    end
 
-    // 【中央制御器：[BLOCK 3]（戦略の脳）】 ── ティール色の際立たせたボックス
-    block3 [shape=box, style="filled,rounded", color="#0d9488", fillcolor="#f0fdfa", fontcolor="#115e59", penwidth=2.5,
-            label="[BLOCK 3]\nMARKET GOVERNANCE\n(市場統治 / 軌道設計)\n★ 中央制御器（システムトリガー）\n・AIマッチ層（専門家）\n・SEO成功層（勝者）\n・SEO苦戦層（敗者）"];
+    %% 【第三層】Maintenance（知性の保守管理）の定義とグループ化
+    subgraph L3 ["【第三層】Maintenance（知性の保守管理）：軌道の動的調律"]
+        block5[BLOCK 5: PHILOSOPHY<br>哲学 / 定点監査・調律]:::blockStyle
+        elem3(【要素 3】<br>知性空間の多角的監査<br>リアルタイム測定):::elemStyle
+        elem4(【要素 4】<br>E-E-A-Tの輪郭補強<br>周辺記事流し込み):::elemStyle
+    end
 
-    // 【その他のブロック（システム仕様）】 ── 深紺・角丸ボックス
-    node [shape=box, style="filled,rounded", color="#1e293b", fillcolor="#f1f5f9", fontcolor="#0f172a", penwidth=1.5];
-    block1 [label="[BLOCK 1]\nIDENTITY & INHERITANCE\n(Sync OS / 原始星)"];
-    block2 [label="[BLOCK 2]\nTHE SUPREME DOCTRINE\n(知性の結晶 / 主星のコア)"];
-    block4 [label="[BLOCK 4]\nPE-AIO = LLMO + Delivery\n(拠点配置 / 宇宙への投入)"];
-    block5 [label="[BLOCK 5]\nPHILOSOPHY\n(哲学 / 定点監査・調律)"];
+    %% ─────────────────────────────────────────────────────────────
+    %% 接続関係と動的トリガーの定義（エッジ）
+    %% ─────────────────────────────────────────────────────────────
 
-    // 【要素（実行プロセス）】 ── 緑色・楕円
-    node [shape=ellipse, style="filled", color="#059669", fillcolor="#ecfdf5", fontcolor="#065f46", penwidth=1.5];
-    elem1 [label="【要素 1】\n知性の結晶化\n(主星の結晶化)"];
-    elem2 [label="【要素 2】\n知性空間の物理配置\n(本流デプロイ)"];
-    elem3 [label="【要素 3】\n知性空間の多角的監査\n(リアルタイム測定)"];
-    elem4 [label="【要素 4】\nE-E-A-Tの輪郭補強\n(周辺記事流し込み)"];
+    %% 1. 起点診断から中央制御器（BLOCK 3）への判定注入
+    diag -->|1. ポジション判定結果の注入| block3
 
-    // ─────────────────────────────────────────────────────────────
-    // 立体3層レイヤーのグループ定義（サブグラフ）
-    // ─────────────────────────────────────────────────────────────
+    %% 2. 中央制御器（BLOCK 3）から各レイヤーへのトリガー放射
+    block3 -->|2-1. 第一層トリガー<br>原始星言語化指令| block1
+    block3 -->|2-2. 第二層トリガー<br>星群軌道計画のデプロイ| elem2
+    block3 -->|2-3. 第三層トリガー<br>定点監査の開始指示| elem3
 
-    // 【第一層】LLMO（知性構築）
-    subgraph cluster_layer1 {
-        label="【第一層】LLMO（知性構築）：主星の結晶化";
-        style="filled,dashed";
-        color="#3b82f6";
-        fillcolor="#eff6ff";
-        fontcolor="#1e3a8a";
-        fontsize=11;
+    %% --- 第一層内の力学プロセス ---
+    block1 -->|質量・独自性の測定依頼| block5
+    block5 -->|診断フィードバック| elem1
+    elem1 -->|恒星(SSOT)として結晶化| block2
 
-        block1; elem1; block2;
-    }
+    %% --- 第二層内の力学プロセス ---
+    block2 -->|主星(SSOT)の重力を統合| elem2
+    elem2 -->|本流拠点サイト宇宙投入| block4
+    block4 -->|衛星記事の軌道配置<br>本流への結合| elem4
 
-    // 【第二層】Delivery Optimization（配布最適化）
-    subgraph cluster_layer2 {
-        label="【第二層】Delivery Optimization（配布最適化）：恒星系の形成";
-        style="filled,dashed";
-        color="#10b981";
-        fillcolor="#ecfdf5";
-        fontcolor="#064e3b";
-        fontsize=11;
+    %% --- 第三層内の力学プロセス ---
+    block4 -->|AI推論回答<br>パース対象| elem3
+    elem3 -->|解釈ズレの検出<br>Audit| block5
+    block5 -->|軌道修正のための補強記事指示| elem4
 
-        elem2; block4;
-    }
+    %% 監査 🔁 補強 の往来循環ループ（動的調律の往還）
+    elem4 <-->|補強後の再測定<br>往来循環| elem3
 
-    // 【第三層】Maintenance（知性の保守管理）
-    subgraph cluster_layer3 {
-        label="【第三層】Maintenance（知性の保守管理）：軌道の動的調律";
-        style="filled,dashed";
-        color="#8b5cf6";
-        fillcolor="#f5f3ff";
-        fontcolor="#4c1d95";
-        fontsize=11;
+    %% 本流へのフィードバック還流（主星のブラッシュアップ）
+    elem4 -->|周辺発信の収縮統合<br>主星のブラッシュアップ| block2
 
-        block5; elem3; elem4;
-    }
-
-    // ─────────────────────────────────────────────────────────────
-    // 接続関係と動的トリガーの定義（エッジ）
-    // ─────────────────────────────────────────────────────────────
-
-    // 1. 起点診断から中央制御器（BLOCK 3）への判定注入
-    diag -> block3 [label="1. ポジション判定結果の注入", color="#ea580c", penwidth=2.0];
-
-    // 2. 中央制御器（BLOCK 3）から各レイヤーへのトリガー放射
-    block3 -> block1 [label="2-1. 第一層トリガー\n(原始星言語化指令)", color="#3b82f6", penwidth=1.5];
-    block3 -> elem2 [label="2-2. 第二層トリガー\n(星群軌道計画のデプロイ)", color="#10b981", penwidth=1.5];
-    block3 -> elem3 [label="2-3. 第三層トリガー\n(定点監査の開始指示)", color="#8b5cf6", penwidth=1.5];
-
-    // --- 第一層内の力学プロセス ---
-    block1 -> block5 [label="質量・独自性の測定依頼"];
-    block5 -> elem1 [label="診断フィードバック"];
-    elem1 -> block2 [label="恒星(SSOT)として結晶化"];
-
-    // --- 第二層内の力学プロセス ---
-    block2 -> elem2 [label="主星(SSOT)の重力を統合"];
-    elem2 -> block4 [label="本流拠点サイト宇宙投入"];
-    block4 -> elem4 [label="衛星記事の軌道配置 (本流への結合)"];
-
-    // --- 第三層内の力学プロセス ---
-    block4 -> elem3 [label="AI推論回答 (パース対象)"];
-    elem3 -> block5 [label="解釈ズレの検出 (Audit)"];
-    block5 -> elem4 [label="軌道修正のための補強記事指示"];
-
-    // 監査 🔁 補強 の往来循環ループ（恒星系の安定軌道維持）
-    elem4 -> elem3 [label="補強後の再測定 (往来循環)", dir=both, color="#8b5cf6", penwidth=2.0];
-
-    // 本流へのフィードバック還流（主星の核のブラッシュアップ）
-    elem4 -> block2 [label="周辺発信の収縮統合\n(主星のブラッシュアップ)", color="#2563eb", style="bold", penwidth=1.5];
-}
+    %% 各サブグラフ（レイヤー外枠）のカラー・スタイル調整
+    style L1 fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray: 5 5,color:#1e3a8a
+    style L2 fill:#ecfdf5,stroke:#10b981,stroke-width:1.5px,stroke-dasharray: 5 5,color:#064e3b
+    style L3 fill:#f5f3ff,stroke:#8b5cf6,stroke-width:1.5px,stroke-dasharray: 5 5,color:#4c1d95
 ```
 
 ---
