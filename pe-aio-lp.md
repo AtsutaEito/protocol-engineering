@@ -398,7 +398,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 「これからの知性の構造化」の方向性を可視化します。
 </p>
 <a href="mailto:atsuta.eito@gmail.com" style="display: inline-block; background-color: transparent; border: 1px solid #3b82f6; color: #3b82f6 !important; text-decoration: none; padding: 12px 28px; border-radius: 4px; font-weight: bold; font-size: 0.95rem; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#3b82f6';">
-知性の同期、ここから開始 ── 無料診断を申し込む
+知性の同期、ここから開始 ── メールで無料診断を申し込む
 </a>
 </div>
   </div>
