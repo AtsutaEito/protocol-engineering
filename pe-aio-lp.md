@@ -144,14 +144,14 @@ p{color:#d2d9ee}
 .cta{margin-top:50px;text-align:center;padding:45px 30px;border:1px solid rgba(255,231,163,.35);border-radius:26px;background:linear-gradient(145deg,rgba(35,28,65,.82),rgba(8,13,34,.82));box-shadow:0 20px 80px rgba(0,0,0,.25)}
 .cta h3{font-size:1.7rem;margin-bottom:10px}.cta p{max-width:720px;margin:0 auto 24px}.cta a{display:inline-block;padding:14px 28px;border-radius:999px;border:1px solid rgba(255,231,163,.5);color:#fff;text-decoration:none;background:rgba(255,231,163,.10);font-weight:800}.cta a:hover{background:rgba(255,231,163,.18)}
 .cta a{margin:8px}
-.compare-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:24px;background:rgba(8,13,32,.66);-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--accent) rgba(255,255,255,.08)}
+.compare-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:24px;background:#f4f5fa;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--accent) rgba(0,0,0,.08)}
 .compare-table-wrap::-webkit-scrollbar{height:10px}
 .compare-table-wrap::-webkit-scrollbar-track{background:rgba(255,255,255,.06);border-radius:8px;margin:0 24px}
 .compare-table-wrap::-webkit-scrollbar-thumb{background:var(--accent);border-radius:8px}
 .compare-table-wrap::-webkit-scrollbar-thumb:hover{background:var(--accent2)}
 .compare-hint{display:none;text-align:right;color:var(--muted);font-size:.8rem;margin:8px 4px 0}
 @media(max-width:820px){.compare-hint{display:block}}
-.compare-table{width:100%;border-collapse:collapse;min-width:760px}.compare-table th,.compare-table td{padding:24px;border-bottom:1px solid var(--line);vertical-align:top}.compare-table th{font-size:1.2rem;text-align:left;background:rgba(25,34,70,.75)}.compare-table th:first-child{color:#c4cbe0}.compare-table th:last-child{color:#d7c8ff}.compare-table tr:last-child td{border-bottom:0}.compare-table td:first-child{width:50%;color:#c6ccdf}.compare-table td:last-child{width:50%;color:#e0e4f5}.compare-table b{display:inline-block;margin-bottom:6px;color:var(--accent)}
+.compare-table{width:100%;border-collapse:collapse;min-width:760px}.compare-table th,.compare-table td{padding:24px;border-bottom:1px solid #dfe2ee;vertical-align:top}.compare-table th{font-size:1.2rem;text-align:left;background:#e7e9f4}.compare-table th:first-child{color:#14151d}.compare-table th:last-child{color:#14151d}.compare-table tr:last-child td{border-bottom:0}.compare-table td:first-child{width:50%;color:#20222b}.compare-table td:last-child{width:50%;color:#20222b}.compare-table b{display:inline-block;margin-bottom:6px;color:#2b3a67}
 .placeholder{
   margin:34px 0; min-height:210px; display:grid;place-items:center;text-align:center;
   border:2px dashed rgba(142,167,255,.42);border-radius:22px;
@@ -396,7 +396,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="information-space">
   <div class="kicker">01｜INFORMATION SPACE</div>
-  <h2>「輝く星」を作る時代から、<br>「知性の空間」を作る時代へ</h2>
+  <h2>「輝く星」を作る時代から、「知性の空間」を作る時代へ</h2>
   <p>
     これまでの情報発信では、目立つことが価値になりやすかった。
     話題をつくり、人間の注目を集め、クリックや反応によって「支持」を可視化する。
@@ -729,8 +729,6 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 
 <footer>
-  <p>PROTOCOL ENGINEERING AIO : PE-AIO｜AI共創論</p>
-  <p>話題作りより、知性づくりへ。</p>
 </footer>
 
 
