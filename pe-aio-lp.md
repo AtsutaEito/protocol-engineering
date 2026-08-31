@@ -3,6 +3,8 @@ layout: default
 title: "プロトコルエンジニアリングAIO｜ペアイオ"
 ---
 
+# プロトコルエンジニアリングAIO｜ペアイオ
+
 <style>
 :root{
   --bg:#050816; --bg2:#0a1025; --text:#edf2ff; --muted:#aeb8d6;
@@ -343,7 +345,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 <section class="hero" id="hero">
   <div class="hero-inner">
     <div class="eyebrow">PROTOCOL ENGINEERING AIO : PE-AIO</div>
-    <h1>話題作りより、<br><em>知性づくりへ</em></h1>
+    <h1>話題作りより、知性づくりへ</em></h1>
     <p class="lead">
       人間の注目を集めるために情報を発信するのではなく、<br>
       <strong>AIに発見・理解・再構成される</strong><br>
@@ -474,7 +476,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="prism">
   <div class="kicker">03｜PRISM STRATEGY</div>
-  <h2>一つの知性を、<br>異なる入口へ流し込む</h2>
+  <h2>一つの知性を、異なる入口へ流し込む</h2>
   <p>
     一つの知性を同じ文章として複製するのではない。
     <strong>受け手の特性に合わせて、知性への入口を変換する。</strong>
@@ -595,7 +597,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="pe-aio">
   <div class="kicker">05｜INTELLIGENCE PIPELINE</div>
-  <h2>知性を構造化し、<br>変換し、届ける</h2>
+  <h2>知性を構造化し、変換し、届ける</h2>
   <p>
     PE-AIOが目指すのは、単に情報を増やすことではない。
     <strong>人間が持つ知性を構造化し、異なる入口へ変換し、情報空間の中で関係づける。</strong>
@@ -626,7 +628,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="depth-expansion">
   <div class="kicker">06｜3D INTELLIGENCE SPACE</div>
-  <h2>一つの「知性空間」を、<br>深くしながら広げていく</h2>
+  <h2>一つの「知性空間」を、深くしながら広げていく</h2>
   <p>
     スターシステムは、平面的にコンテンツを増やす発想ではない。
     一つの主星を中心に、<strong>深さ方向へ掘り下げながら、外側へも広げていく。</strong>
@@ -666,7 +668,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="vision">
   <div class="kicker">07｜THE VISION</div>
-  <h2>話題を追うのではなく、<br>知性を宇宙に置く</h2>
+  <h2>話題を追うのではなく、知性を宇宙に置く</h2>
   <p>
     一つの記事をバズらせることだけが、知性を社会へ届ける方法ではない。
     自分の知性を構造化し、主星を定め、そこから衛星を増やし、それぞれを異なる媒体へ変換する。
