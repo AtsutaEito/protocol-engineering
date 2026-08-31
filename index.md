@@ -509,9 +509,25 @@ A system design methodology designed to bridge the structural divide between non
 <span class="pe-tag">RAW / TXT</span>
 </a>
 
+<a href="./pe-aio.html" class="pe-card">
+<div>
+<h3>⑥ pe-aio.html</h3>
+<p>PE-AIOの本論：恒星系（スターシステム）の比喩を用い、SSOTの結晶化から知性空間の構築・監査・補強までを解説する詳細フレームワーク。</p>
+</div>
+<span class="pe-tag">HTML</span>
+</a>
+
+<a href="./pe-aio-lp.html" class="pe-card">
+<div>
+<h3>⑦ pe-aio-lp.html</h3>
+<p>PE-AIOのランディングページ：「話題づくり（Buzz）」から「知性づくり（Formation）」へのシフトをビジュアルで解説。</p>
+</div>
+<span class="pe-tag">HTML</span>
+</a>
+
 <a href="https://atsutaeito.github.io/ai-co-creation/" class="pe-card" target="_blank">
 <div>
-<h3>⑥ ai-co-creation.html</h3>
+<h3>⑧ ai-co-creation.html</h3>
 <p>AI共創とは、脳内イメージを言語化し独自の一次情報を創造すること</p>
 </div>
 <span class="pe-tag">HTML</span>
@@ -519,7 +535,7 @@ A system design methodology designed to bridge the structural divide between non
 
 <a href="https://atsutaeito.github.io/protocol-engineering-manifesto/" class="pe-card" target="_blank">
 <div>
-<h3>⑦ manifesto-portal.html</h3>
+<h3>⑨ manifesto-portal.html</h3>
 <p>知性をAIに外注（認知降伏）するのを拒絶し、主権を自らの手元に奪還するための公式宣言ポータル。</p>
 </div>
 <span class="pe-tag">HTML</span>
@@ -527,7 +543,7 @@ A system design methodology designed to bridge the structural divide between non
 
 <a href="./research-validation.html" class="pe-card">
 <div>
-<h3>⑧ research-validation.html</h3>
+<h3>⑩ research-validation.html</h3>
 <p>プロトコルエンジニアリング：技術的新規性に関するAI解析報告書ドキュメント。</p>
 </div>
 <span class="pe-tag">HTML</span>
