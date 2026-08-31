@@ -345,7 +345,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 <section class="hero" id="hero">
   <div class="hero-inner">
     <div class="eyebrow">PROTOCOL ENGINEERING AIO : PE-AIO</div>
-    <h1>話題作りより、知性づくりへ</em></h1>
+    <h1>話題作りより、知性づくりへ</h1>
     <p class="lead">
       人間の注目を集めるために情報を発信するのではなく、<br>
       <strong>AIに発見・理解・再構成される</strong><br>
@@ -383,16 +383,17 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
       </a>
     </div>
 
-    <div class="diagnostic" id="diagnostic">
-      <span class="diagnostic-badge">FREE INTELLIGENCE DIAGNOSIS</span>
-      <h3>あなたの「知性空間」は、どこまで構造化されていますか？</h3>
-      <p>
-        情報発信を「話題づくり」ではなく「知性づくり」の視点から見つめ直す、
-        無料知性診断です。
-      </p>
-      <a href="YOUR_GOOGLE_FORM_URL" target="_blank" rel="noopener">無料知性診断を受ける →</a>
-      <p class="form-note">※「YOUR_GOOGLE_FORM_URL」を実際のGoogleフォームURLに置き換えてください。</p>
-    </div>
+<div style="background-color: #0f172a; border: 2px solid #3b82f6; border-radius: 8px; padding: 30px; text-align: center; margin: 32px 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);" id="diagnostic">
+<strong style="color: #3b82f6; font-size: 1.3rem; display: block; margin-bottom: 12px; letter-spacing: 0.05em;">[CONTACT FOR RESONANCE]</strong>
+<p style="color: #e2e8f0; font-size: 0.95rem; margin-top: 0; margin-bottom: 8px; font-weight: bold;">知性の同期、ここから開始。（初回、無料診断承ります）</p>
+<p style="color: #94a3b8; font-size: 0.85rem; line-height: 1.5; margin-bottom: 24px;">
+「話題作り」の競争を脱し、自社の知性をAI空間の主権へと変えたい専門家・経営者の方へ。<br>
+あなたの保有する独自の知性を、AIの推論を規定する「武器」へと変換するための同期（Sync）を開始します。
+</p>
+<a href="mailto:atsuta.eito@gmail.com" style="display: inline-block; background-color: transparent; border: 1px solid #3b82f6; color: #3b82f6 !important; text-decoration: none; padding: 12px 28px; border-radius: 4px; font-weight: bold; font-size: 0.95rem; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#3b82f6';">
+✉ INITIATE_SYNC_VIA_EMAIL
+</a>
+</div>
   </div>
 </section>
 
