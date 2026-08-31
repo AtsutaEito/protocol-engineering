@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PROTOCOL ENGINEERING AIO : PE-AIO｜話題作りより、知性づくりへ
+title: "PROTOCOL ENGINEERING AIO : PE-AIO｜話題作りより、知性づくりへ"
 ---
 
 <style>
