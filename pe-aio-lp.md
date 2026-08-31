@@ -346,6 +346,12 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   <div class="hero-inner">
     <div class="eyebrow">PROTOCOL ENGINEERING AIO : PE-AIO</div>
     <h1>話題作りより、知性づくりへ</h1>
+    <p class="lead" style="margin-bottom: 24px;">
+      ホームページを綺麗にリニューアルした。<br>
+      刺さるキャッチコピーを考え、SEOのためにブログやコラムも書き続けた。<br><br>
+      話題作りのための施策は、AI時代には効力が落ちてきています。<br>
+      <strong style="color: var(--accent2);">知性づくりに挑戦してみませんか？</strong>
+    </p>
     <p class="lead">
       人間の注目を集めるために情報を発信するのではなく、<br>
       <strong>AIに発見・理解・再構成される</strong><br>
@@ -363,7 +369,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
       </a>
       <a class="message-item" href="#prism">
         <span>03｜PRISM STRATEGY</span>
-        <strong>一つの知性を、異なる入口へ流し込む</strong>
+        <strong>人間は「知性の核（0→1）」をつくる。広げるのはAIの仕事。</strong>
       </a>
       <a class="message-item" href="#ai-space">
         <span>04｜AI KNOWLEDGE SPACE</span>
@@ -384,14 +390,15 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
     </div>
 
 <div style="background-color: #0f172a; border: 2px solid #3b82f6; border-radius: 8px; padding: 30px; text-align: center; margin: 32px 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);" id="diagnostic">
-<strong style="color: #3b82f6; font-size: 1.3rem; display: block; margin-bottom: 12px; letter-spacing: 0.05em;">[CONTACT FOR RESONANCE]</strong>
-<p style="color: #e2e8f0; font-size: 0.95rem; margin-top: 0; margin-bottom: 8px; font-weight: bold;">知性の同期、ここから開始。（初回、無料診断承ります）</p>
-<p style="color: #94a3b8; font-size: 0.85rem; line-height: 1.5; margin-bottom: 24px;">
-「話題作り」の競争を脱し、自社の知性をAI空間の主権へと変えたい専門家・経営者の方へ。<br>
-あなたの保有する独自の知性を、AIの推論を規定する「武器」へと変換するための同期（Sync）を開始します。
+<strong style="color: #3b82f6; font-size: 1.3rem; display: block; margin-bottom: 12px; letter-spacing: 0.05em;">[FREE DIAGNOSIS]</strong>
+<p style="color: #e2e8f0; font-size: 1.1rem; margin-top: 0; margin-bottom: 12px; font-weight: bold;">知性の価値を診断します。</p>
+<p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.7; margin-bottom: 24px;">
+「唯一性という観点からの自社のポテンシャル診断」<br>
+「現状サイトのAIからの見え方」から、<br>
+「これからの知性の構造化」の方向性を可視化します。
 </p>
 <a href="mailto:atsuta.eito@gmail.com" style="display: inline-block; background-color: transparent; border: 1px solid #3b82f6; color: #3b82f6 !important; text-decoration: none; padding: 12px 28px; border-radius: 4px; font-weight: bold; font-size: 0.95rem; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#3b82f6';">
-✉ INITIATE_SYNC_VIA_EMAIL
+知性の同期、ここから開始 ── 無料診断を申し込む
 </a>
 </div>
   </div>
@@ -477,25 +484,28 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 
 <section class="section" id="prism">
   <div class="kicker">03｜PRISM STRATEGY</div>
-  <h2>一つの知性を、異なる入口へ流し込む</h2>
+  <h2>人間は「知性の核（0→1）」をつくる。広げるのはAIの仕事。</h2>
   <p>
-    一つの知性を同じ文章として複製するのではない。
-    <strong>受け手の特性に合わせて、知性への入口を変換する。</strong>
-    これがプリズム戦略のイメージだ。
+    「ブログも動画もスライドも作らなきゃ…」と悩む必要はありません。<br>
+    あなたの会社のノウハウを「1つの知性」としてまとめるだけで、あとはAIが自動でマルチに分光してくれます。
   </p>
 
   <div class="compare">
     <article class="card">
-      <h3>人間向けの入口</h3>
-      <div class="flow"><span class="node">見る</span><span class="node">聞く</span><span class="node">読む</span><span class="node">体験する</span></div>
-      <p>視覚、音声、文章、実践など、人間の認知や理解の特性に合わせて知性への入口を変える。</p>
+      <h3>人間が見るもの</h3>
+      <div class="flow"><span class="node">スライド</span><span class="node">音声</span><span class="node">動画</span><span class="node">解説</span></div>
+      <p>スライド作成、音声解説、動画の解説へAIが自動展開し、誰にでも直感的に伝わる形へ翻訳します。</p>
     </article>
     <article class="card">
-      <h3>AI向けの入口</h3>
-      <div class="flow"><span class="node">定義する</span><span class="node">問う</span><span class="node">関係づける</span><span class="node">具体化する</span></div>
-      <p>概念、関係、文脈、Q&A、具体例などを増やし、AIが知性の構造を捉えやすい入口を形成する。</p>
+      <h3>AIが読むもの</h3>
+      <div class="flow"><span class="node">定義</span><span class="node">構造</span><span class="node">データ</span><span class="node">逆提案</span></div>
+      <p>「どんな構造で書けばAIに最も届くか？」という最適なデータ構造をAI自身が逆提案してくれます。</p>
     </article>
   </div>
+
+  <p style="text-align: center; margin: 24px 0 10px; color: var(--muted);">
+    人間は知性を生み出すことに集中し、翻訳と拡散は、どんどん賢くなるAIに全部任せてしまいましょう。
+  </p>
 
   <div class="pipeline"><div><b>知性</b>一つの核</div><div><b>分光</b>入口を変える</div><div><b>衛星</b>切り口を増やす</div><div><b>接続</b>意味を結ぶ</div><div><b>空間</b>全体として深まる</div></div>
 
@@ -528,7 +538,7 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 <path d="M520 250 C650 300 720 345 835 370" fill="none" stroke="#ffd84d" stroke-width="4"/>
 
 <text x="700" y="58" text-anchor="middle" fill="#bff6ff" font-size="18" font-weight="900">人間向け</text>
-<text x="700" y="92" text-anchor="middle" fill="#dce4ff" font-size="14">見る　聞く　読む　体験する</text>
+<text x="700" y="92" text-anchor="middle" fill="#dce4ff" font-size="14">スライド　音声　動画　解説</text>
 
 <text x="885" y="155" text-anchor="middle" fill="#fff0a6" font-size="18" font-weight="900">AI向け</text>
 <g fill="#071026" stroke="#ffd84d" stroke-width="2">
