@@ -109,7 +109,6 @@ p{color:#d2d9ee}
   text-align:center;line-height:1.5; padding:55px 20px;
 }
 
-
 .cosmic-emphasis{
   display:inline-block;
   margin:.25em 0 .15em;
@@ -231,7 +230,6 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   @keyframes orbitSpin{from{transform:translate(-50%,-50%) rotate(-18deg)}to{transform:translate(-50%,-50%) rotate(342deg)}}
 }
 
-
 /* === Pipeline node visibility === */
 .pipeline .node,
 .pipeline > div{
@@ -293,27 +291,6 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
     0 0 20px rgba(255,216,77,.68);
 }
 
-/* image concept cards */
-
-.master-brief{
-  max-width:1120px;margin:70px auto 0;padding:0 24px 20px;
-}
-.master-brief h2{font-size:clamp(1.4rem,2.5vw,2rem);margin:.35em 0 .65em}
-.master-brief p{max-width:900px;color:#b9c2d4;line-height:1.9}
-.master-brief strong{color:#ffe36b}
-.visual-placeholder{
-  min-height:210px;
-  display:flex;flex-direction:column;justify-content:center;align-items:center;
-  gap:12px;text-align:center;padding:28px;
-}
-.visual-placeholder strong{
-  max-width:760px;color:#ffe36b;font-size:1.08rem;line-height:1.65;
-}
-.visual-placeholder small{
-  max-width:820px;color:#aeb8cb;line-height:1.8;font-size:.9rem;
-}
-
-
 /* ===== INLINE SVG INTELLIGENCE DIAGRAMS ===== */
 .svg-diagram{margin:38px 0;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:radial-gradient(circle at 50% 50%,rgba(255,216,77,.09),transparent 28%),rgba(3,8,24,.78);box-shadow:0 20px 90px rgba(0,0,0,.24)}
 .svg-diagram svg{display:block;width:100%;height:auto}
@@ -325,6 +302,80 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){.svg-diagram *{animation:none!important}}
 
 .toc a.active{color:#fff0a6;border-color:rgba(255,216,77,.45);background:rgba(255,216,77,.07);box-shadow:0 0 14px rgba(255,216,77,.08)}
+
+/* ===== NEW: YOUTUBE EMBED STYLES ===== */
+.video-section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 36px 0;
+}
+@media (max-width: 760px) {
+  .video-section-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.video-embed-card {
+  background: linear-gradient(145deg, rgba(18, 28, 62, 0.88), rgba(7, 13, 32, 0.80));
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+}
+.video-embed-card h3 {
+  font-size: 1.18rem;
+  color: var(--gold);
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.video-player-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(142, 167, 255, 0.3);
+  background: #000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.video-player-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-meta-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: rgba(5, 8, 22, 0.65);
+  border-radius: 12px;
+  border: 1px solid rgba(170, 190, 255, 0.15);
+  font-size: 0.85rem;
+}
+.video-meta-label {
+  color: var(--muted);
+  font-size: 0.76rem;
+  margin-bottom: 4px;
+  display: block;
+}
+.video-meta-url {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  word-break: break-all;
+  display: inline-block;
+  transition: color .2s ease;
+}
+.video-meta-url:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 </style>
 
 <nav class="toc" aria-label="PE-AIO メッセージ・ナビゲーション">
@@ -338,7 +389,6 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
     <a href="#vision">07｜VISION</a>
   </div>
 </nav>
-
 
 <main>
 
@@ -389,18 +439,18 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
       </a>
     </div>
 
-<div style="background-color: #0f172a; border: 2px solid #3b82f6; border-radius: 8px; padding: 30px; text-align: center; margin: 32px 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);" id="diagnostic">
-<strong style="color: #3b82f6; font-size: 1.3rem; display: block; margin-bottom: 12px; letter-spacing: 0.05em;">[FREE DIAGNOSIS]</strong>
-<p style="color: #e2e8f0; font-size: 1.1rem; margin-top: 0; margin-bottom: 12px; font-weight: bold;">知性の価値を診断します。</p>
-<p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.7; margin-bottom: 24px;">
-「唯一性という観点からの自社のポテンシャル診断」<br>
-「現状サイトのAIからの見え方」から、<br>
-「これからの知性の構造化」の方向性を可視化します。
-</p>
-<a href="mailto:atsuta.eito@gmail.com" style="display: inline-block; background-color: transparent; border: 1px solid #3b82f6; color: #3b82f6 !important; text-decoration: none; padding: 12px 28px; border-radius: 4px; font-weight: bold; font-size: 0.95rem; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#3b82f6';">
-知性の同期、ここから開始 ── メールで無料診断を申し込む
-</a>
-</div>
+    <div style="background-color: #0f172a; border: 2px solid #3b82f6; border-radius: 8px; padding: 30px; text-align: center; margin: 32px 0; font-family: -apple-system, BlinkMacSystemFont, sans-serif; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);" id="diagnostic">
+      <strong style="color: #3b82f6; font-size: 1.3rem; display: block; margin-bottom: 12px; letter-spacing: 0.05em;">[FREE DIAGNOSIS]</strong>
+      <p style="color: #e2e8f0; font-size: 1.1rem; margin-top: 0; margin-bottom: 12px; font-weight: bold;">知性の価値を診断します。</p>
+      <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.7; margin-bottom: 24px;">
+        「唯一性という観点からの自社のポテンシャル診断」<br>
+        「現状サイトのAIからの見え方」から、<br>
+        「これからの知性の構造化」の方向性を可視化します。
+      </p>
+      <a href="mailto:atsuta.eito@gmail.com" style="display: inline-block; background-color: transparent; border: 1px solid #3b82f6; color: #3b82f6 !important; text-decoration: none; padding: 12px 28px; border-radius: 4px; font-weight: bold; font-size: 0.95rem; transition: all 0.2s;" onmouseover="this.style.backgroundColor='#3b82f6'; this.style.color='#ffffff';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#3b82f6';">
+        知性の同期、ここから開始 ── メールで無料診断を申し込む
+      </a>
+    </div>
   </div>
 </section>
 
@@ -432,20 +482,24 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   <p class="compare-hint">← 横にスクロールできます →</p>
 
   <div class="svg-diagram" aria-label="輝く星から知性の空間への転換">
-<svg viewBox="0 0 1000 420" role="img">
-<defs><radialGradient id="a1"><stop stop-color="#fff"/><stop offset=".3" stop-color="#dce8ff"/><stop offset="1" stop-color="#6b7cff" stop-opacity="0"/></radialGradient><radialGradient id="a2"><stop stop-color="#fffde0"/><stop offset=".35" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient></defs>
-<line x1="500" y1="45" x2="500" y2="375" stroke="#9aaeff" stroke-opacity=".18"/>
-<text x="250" y="55" text-anchor="middle" fill="#edf2ff" font-size="25" font-weight="900">輝く星</text>
-<text x="750" y="55" text-anchor="middle" fill="#fff0a6" font-size="25" font-weight="900">知性の空間</text>
-<circle cx="250" cy="205" r="105" fill="url(#a1)" class="pulse"/><circle cx="250" cy="205" r="27" fill="#fff"/>
-<text x="250" y="330" text-anchor="middle" fill="#aeb8d6" font-size="16">注目を集める</text>
-<g fill="none" stroke="#ffd84d" stroke-opacity=".42"><ellipse cx="750" cy="205" rx="185" ry="78"/><ellipse cx="750" cy="205" rx="120" ry="48"/></g>
-<circle cx="750" cy="205" r="48" fill="url(#a2)" class="core pulse"/>
-<g fill="#ffe98a"><circle cx="565" cy="205" r="10"/><circle cx="935" cy="205" r="10"/><circle cx="750" cy="127" r="9"/><circle cx="750" cy="283" r="9"/></g>
-<g stroke="#ffd84d" stroke-opacity=".62"><line x1="750" y1="205" x2="565" y2="205"/><line x1="750" y1="205" x2="935" y2="205"/><line x1="750" y1="205" x2="750" y2="127"/><line x1="750" y1="205" x2="750" y2="283"/></g>
-<text x="750" y="330" text-anchor="middle" fill="#fff0a6" font-size="16">意味・関係・文脈をつなぐ</text>
-<text x="500" y="385" text-anchor="middle" fill="#d7def4" font-size="17" font-weight="800">単発の注目 → 構造化された知性</text>
-</svg></div>
+    <svg viewBox="0 0 1000 420" role="img">
+      <defs>
+        <radialGradient id="a1"><stop stop-color="#fff"/><stop offset=".3" stop-color="#dce8ff"/><stop offset="1" stop-color="#6b7cff" stop-opacity="0"/></radialGradient>
+        <radialGradient id="a2"><stop stop-color="#fffde0"/><stop offset=".35" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient>
+      </defs>
+      <line x1="500" y1="45" x2="500" y2="375" stroke="#9aaeff" stroke-opacity=".18"/>
+      <text x="250" y="55" text-anchor="middle" fill="#edf2ff" font-size="25" font-weight="900">輝く星</text>
+      <text x="750" y="55" text-anchor="middle" fill="#fff0a6" font-size="25" font-weight="900">知性の空間</text>
+      <circle cx="250" cy="205" r="105" fill="url(#a1)" class="pulse"/><circle cx="250" cy="205" r="27" fill="#fff"/>
+      <text x="250" y="330" text-anchor="middle" fill="#aeb8d6" font-size="16">注目を集める</text>
+      <g fill="none" stroke="#ffd84d" stroke-opacity=".42"><ellipse cx="750" cy="205" rx="185" ry="78"/><ellipse cx="750" cy="205" rx="120" ry="48"/></g>
+      <circle cx="750" cy="205" r="48" fill="url(#a2)" class="core pulse"/>
+      <g fill="#ffe98a"><circle cx="565" cy="205" r="10"/><circle cx="935" cy="205" r="10"/><circle cx="750" cy="127" r="9"/><circle cx="750" cy="283" r="9"/></g>
+      <g stroke="#ffd84d" stroke-opacity=".62"><line x1="750" y1="205" x2="565" y2="205"/><line x1="750" y1="205" x2="935" y2="205"/><line x1="750" y1="205" x2="750" y2="127"/><line x1="750" y1="205" x2="750" y2="283"/></g>
+      <text x="750" y="330" text-anchor="middle" fill="#fff0a6" font-size="16">意味・関係・文脈をつなぐ</text>
+      <text x="500" y="385" text-anchor="middle" fill="#d7def4" font-size="17" font-weight="800">単発の注目 → 構造化された知性</text>
+    </svg>
+  </div>
 </section>
 
 <section class="section" id="star-system">
@@ -471,15 +525,18 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   <p class="quote">主星で知性をつくり、衛星で知性を深める。<br>そして衛星が増えるほど、知性空間そのものが広がっていく。</p>
 
   <div class="svg-diagram" aria-label="主星と5つの衛星によるスターシステム">
-<svg viewBox="0 0 1000 560" role="img"><title>一つの知性空間を、主星を中心に衛星と軌道で深くしながら広げていく3D知性構造</title><desc>中央の主星は知性の核。その周囲の衛星は定義、問い、関係、具体化、応用などの切り口を表し、複数の軌道が知性の深さと広がりを表す。</desc>
-<defs><radialGradient id="a3"><stop stop-color="#fffdf0"/><stop offset=".34" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient></defs>
-<g fill="none" stroke="#8399ff" stroke-opacity=".24"><ellipse cx="500" cy="275" rx="190" ry="72"/><ellipse cx="500" cy="275" rx="320" ry="150"/></g>
-<g stroke="#ffd84d" stroke-opacity=".5" stroke-width="2"><line x1="500" y1="275" x2="245" y2="180"/><line x1="500" y1="275" x2="755" y2="180"/><line x1="500" y1="275" x2="225" y2="405"/><line x1="500" y1="275" x2="775" y2="405"/><line x1="500" y1="275" x2="500" y2="88"/></g>
-<circle cx="500" cy="275" r="70" fill="url(#a3)" class="core pulse"/><circle cx="500" cy="275" r="84" fill="none" stroke="#ffd84d" stroke-width="4" stroke-opacity=".55"/>
-<g fill="#071026" stroke="#ffd84d" stroke-width="2"><circle cx="245" cy="180" r="48"/><circle cx="755" cy="180" r="48"/><circle cx="225" cy="405" r="48"/><circle cx="775" cy="405" r="48"/><circle cx="500" cy="88" r="43"/></g>
-<g class="label" text-anchor="middle" font-size="15"><text x="500" y="268">主星</text><text x="500" y="296" font-size="13">知性の核</text><text x="245" y="176">定義</text><text x="245" y="198" font-size="11">明確にする</text><text x="755" y="176">問い</text><text x="755" y="198" font-size="11">掘り下げる</text><text x="225" y="401">具体例</text><text x="225" y="423" font-size="11">理解を広げる</text><text x="775" y="401">反例</text><text x="775" y="423" font-size="11">境界を知る</text><text x="500" y="83">応用</text><text x="500" y="104" font-size="11">別領域へ</text></g>
-<text x="500" y="515" text-anchor="middle" fill="#d7def4" font-size="17" font-weight="800">主星で知性をつくり、衛星で知性を深める。</text>
-</svg></div>
+    <svg viewBox="0 0 1000 560" role="img">
+      <title>一つの知性空間を、主星を中心に衛星と軌道で深くしながら広げていく3D知性構造</title>
+      <desc>中央の主星は知性の核。その周囲の衛星は定義、問い、関係、具体化、応用などの切り口を表し、複数の軌道が知性の深さと広がりを表す。</desc>
+      <defs><radialGradient id="a3"><stop stop-color="#fffdf0"/><stop offset=".34" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient></defs>
+      <g fill="none" stroke="#8399ff" stroke-opacity=".24"><ellipse cx="500" cy="275" rx="190" ry="72"/><ellipse cx="500" cy="275" rx="320" ry="150"/></g>
+      <g stroke="#ffd84d" stroke-opacity=".5" stroke-width="2"><line x1="500" y1="275" x2="245" y2="180"/><line x1="500" y1="275" x2="755" y2="180"/><line x1="500" y1="275" x2="225" y2="405"/><line x1="500" y1="275" x2="775" y2="405"/><line x1="500" y1="275" x2="500" y2="88"/></g>
+      <circle cx="500" cy="275" r="70" fill="url(#a3)" class="core pulse"/><circle cx="500" cy="275" r="84" fill="none" stroke="#ffd84d" stroke-width="4" stroke-opacity=".55"/>
+      <g fill="#071026" stroke="#ffd84d" stroke-width="2"><circle cx="245" cy="180" r="48"/><circle cx="755" cy="180" r="48"/><circle cx="225" cy="405" r="48"/><circle cx="775" cy="405" r="48"/><circle cx="500" cy="88" r="43"/></g>
+      <g class="label" text-anchor="middle" font-size="15"><text x="500" y="268">主星</text><text x="500" y="296" font-size="13">知性の核</text><text x="245" y="176">定義</text><text x="245" y="198" font-size="11">明確にする</text><text x="755" y="176">問い</text><text x="755" y="198" font-size="11">掘り下げる</text><text x="225" y="401">具体例</text><text x="225" y="423" font-size="11">理解を広げる</text><text x="775" y="401">反例</text><text x="775" y="423" font-size="11">境界を知る</text><text x="500" y="83">応用</text><text x="500" y="104" font-size="11">別領域へ</text></g>
+      <text x="500" y="515" text-anchor="middle" fill="#d7def4" font-size="17" font-weight="800">主星で知性をつくり、衛星で知性を深める。</text>
+    </svg>
+  </div>
 </section>
 
 <section class="section" id="prism">
@@ -503,6 +560,41 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
     </article>
   </div>
 
+  <!-- ▼ 動画・音声の解説コンポーネント ▼ -->
+  <div class="video-section-grid">
+    <div class="video-embed-card">
+      <h3>🎬 動画解説</h3>
+      <div class="video-player-container">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/l1WTDih3DWo" 
+          title="PE-AIO 動画解説" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="video-meta-box">
+        <span class="video-meta-label">動画URL：</span>
+        <a class="video-meta-url" href="https://youtu.be/l1WTDih3DWo" target="_blank" rel="noopener noreferrer">https://youtu.be/l1WTDih3DWo</a>
+      </div>
+    </div>
+
+    <div class="video-embed-card">
+      <h3>🎙️ 音声解説</h3>
+      <div class="video-player-container">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/YV1EyDsUPCk" 
+          title="PE-AIO 音声解説" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="video-meta-box">
+        <span class="video-meta-label">動画URL：</span>
+        <a class="video-meta-url" href="https://youtu.be/YV1EyDsUPCk" target="_blank" rel="noopener noreferrer">https://youtu.be/YV1EyDsUPCk</a>
+      </div>
+    </div>
+  </div>
+
   <p style="text-align: center; margin: 24px 0 10px; color: var(--muted);">
     人間は知性を生み出すことに集中し、翻訳と拡散は、どんどん賢くなるAIに全部任せてしまいましょう。
   </p>
@@ -510,59 +602,60 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   <div class="pipeline"><div><b>知性</b>一つの核</div><div><b>分光</b>入口を変える</div><div><b>衛星</b>切り口を増やす</div><div><b>接続</b>意味を結ぶ</div><div><b>空間</b>全体として深まる</div></div>
 
   <div class="svg-diagram" aria-label="一つの知性を人間向けとAI向けの入口へ分光する構造">
-<svg viewBox="0 0 1000 500" role="img">
-<defs>
-  <radialGradient id="a4"><stop stop-color="#fff"/><stop offset=".32" stop-color="#ffd84d"/><stop offset="1" stop-color="#ffd84d" stop-opacity="0"/></radialGradient>
-  <filter id="glow4"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
+    <svg viewBox="0 0 1000 500" role="img">
+      <defs>
+        <radialGradient id="a4"><stop stop-color="#fff"/><stop offset=".32" stop-color="#ffd84d"/><stop offset="1" stop-color="#ffd84d" stop-opacity="0"/></radialGradient>
+        <filter id="glow4"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
 
-<circle cx="130" cy="250" r="78" fill="url(#a4)" class="pulse" filter="url(#glow4)"/>
-<circle cx="130" cy="250" r="48" fill="#ffd84d" opacity=".92"/>
-<text x="130" y="245" text-anchor="middle" fill="#fffdf0" font-size="18" font-weight="900">一つの知性</text>
-<text x="130" y="271" text-anchor="middle" fill="#fff7c9" font-size="12">知性の核</text>
+      <circle cx="130" cy="250" r="78" fill="url(#a4)" class="pulse" filter="url(#glow4)"/>
+      <circle cx="130" cy="250" r="48" fill="#ffd84d" opacity=".92"/>
+      <text x="130" y="245" text-anchor="middle" fill="#fffdf0" font-size="18" font-weight="900">一つの知性</text>
+      <text x="130" y="271" text-anchor="middle" fill="#fff7c9" font-size="12">知性の核</text>
 
-<path d="M190 250 H360" stroke="#ffd84d" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 12" class="dash"/>
-<polygon points="380,150 380,350 520,250" fill="rgba(180,160,255,.08)" stroke="#ffe27a" stroke-width="3"/>
-<text x="445" y="385" text-anchor="middle" fill="#fff0a6" font-size="16" font-weight="900">分光</text>
+      <path d="M190 250 H360" stroke="#ffd84d" stroke-width="7" stroke-linecap="round" stroke-dasharray="18 12" class="dash"/>
+      <polygon points="380,150 380,350 520,250" fill="rgba(180,160,255,.08)" stroke="#ffe27a" stroke-width="3"/>
+      <text x="445" y="385" text-anchor="middle" fill="#fff0a6" font-size="16" font-weight="900">分光</text>
 
-<!-- Human -->
-<path d="M520 250 C620 175 670 115 790 105" fill="none" stroke="#72e6ff" stroke-width="4"/>
-<path d="M520 250 C630 215 680 185 790 180" fill="none" stroke="#72e6ff" stroke-width="4"/>
-<path d="M520 250 C630 285 680 315 790 320" fill="none" stroke="#72e6ff" stroke-width="4"/>
-<path d="M520 250 C620 330 670 380 790 395" fill="none" stroke="#72e6ff" stroke-width="4"/>
+      <!-- Human -->
+      <path d="M520 250 C620 175 670 115 790 105" fill="none" stroke="#72e6ff" stroke-width="4"/>
+      <path d="M520 250 C630 215 680 185 790 180" fill="none" stroke="#72e6ff" stroke-width="4"/>
+      <path d="M520 250 C630 285 680 315 790 320" fill="none" stroke="#72e6ff" stroke-width="4"/>
+      <path d="M520 250 C620 330 670 380 790 395" fill="none" stroke="#72e6ff" stroke-width="4"/>
 
-<!-- AI -->
-<path d="M520 250 C650 225 720 225 835 220" fill="none" stroke="#ffd84d" stroke-width="4"/>
-<path d="M520 250 C650 250 735 260 835 270" fill="none" stroke="#ffd84d" stroke-width="4"/>
-<path d="M520 250 C650 275 735 300 835 320" fill="none" stroke="#ffd84d" stroke-width="4"/>
-<path d="M520 250 C650 300 720 345 835 370" fill="none" stroke="#ffd84d" stroke-width="4"/>
+      <!-- AI -->
+      <path d="M520 250 C650 225 720 225 835 220" fill="none" stroke="#ffd84d" stroke-width="4"/>
+      <path d="M520 250 C650 250 735 260 835 270" fill="none" stroke="#ffd84d" stroke-width="4"/>
+      <path d="M520 250 C650 275 735 300 835 320" fill="none" stroke="#ffd84d" stroke-width="4"/>
+      <path d="M520 250 C650 300 720 345 835 370" fill="none" stroke="#ffd84d" stroke-width="4"/>
 
-<text x="700" y="58" text-anchor="middle" fill="#bff6ff" font-size="18" font-weight="900">人間向け</text>
-<text x="700" y="92" text-anchor="middle" fill="#dce4ff" font-size="14">スライド　音声　動画　解説</text>
+      <text x="700" y="58" text-anchor="middle" fill="#bff6ff" font-size="18" font-weight="900">人間向け</text>
+      <text x="700" y="92" text-anchor="middle" fill="#dce4ff" font-size="14">スライド　音声　動画　解説</text>
 
-<text x="885" y="155" text-anchor="middle" fill="#fff0a6" font-size="18" font-weight="900">AI向け</text>
-<g fill="#071026" stroke="#ffd84d" stroke-width="2">
-  <circle cx="835" cy="220" r="28"/><circle cx="835" cy="270" r="28"/>
-  <circle cx="835" cy="320" r="28"/><circle cx="835" cy="370" r="28"/>
-</g>
-<g text-anchor="middle" fill="#fff4b0" font-size="13" font-weight="800">
-  <text x="835" y="225">定義する</text>
-  <text x="835" y="275">問う</text>
-  <text x="835" y="325">関係づける</text>
-  <text x="835" y="375">具体化する</text>
-</g>
+      <text x="885" y="155" text-anchor="middle" fill="#fff0a6" font-size="18" font-weight="900">AI向け</text>
+      <g fill="#071026" stroke="#ffd84d" stroke-width="2">
+        <circle cx="835" cy="220" r="28"/><circle cx="835" cy="270" r="28"/>
+        <circle cx="835" cy="320" r="28"/><circle cx="835" cy="370" r="28"/>
+      </g>
+      <g text-anchor="middle" fill="#fff4b0" font-size="13" font-weight="800">
+        <text x="835" y="225">定義する</text>
+        <text x="835" y="275">問う</text>
+        <text x="835" y="325">関係づける</text>
+        <text x="835" y="375">具体化する</text>
+      </g>
 
-<g fill="#071026" stroke="#72e6ff" stroke-width="2">
-  <circle cx="790" cy="105" r="25"/><circle cx="790" cy="180" r="25"/>
-  <circle cx="790" cy="320" r="25"/><circle cx="790" cy="395" r="25"/>
-</g>
-<g text-anchor="middle" fill="#d8fbff" font-size="12" font-weight="800">
-  <text x="790" y="109">見る</text><text x="790" y="184">聞く</text>
-  <text x="790" y="324">読む</text><text x="790" y="399">体験する</text>
-</g>
+      <g fill="#071026" stroke="#72e6ff" stroke-width="2">
+        <circle cx="790" cy="105" r="25"/><circle cx="790" cy="180" r="25"/>
+        <circle cx="790" cy="320" r="25"/><circle cx="790" cy="395" r="25"/>
+      </g>
+      <g text-anchor="middle" fill="#d8fbff" font-size="12" font-weight="800">
+        <text x="790" y="109">見る</text><text x="790" y="184">聞く</text>
+        <text x="790" y="324">読む</text><text x="790" y="399">体験する</text>
+      </g>
 
-<text x="500" y="465" text-anchor="middle" fill="#fff0a6" font-size="18" font-weight="900">入口は変わっても、知性の核は一つ</text>
-</svg></div>
+      <text x="500" y="465" text-anchor="middle" fill="#fff0a6" font-size="18" font-weight="900">入口は変わっても、知性の核は一つ</text>
+    </svg>
+  </div>
 </section>
 
 <section class="section" id="ai-space">
@@ -590,20 +683,21 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   </div>
 
   <div class="svg-diagram" aria-label="AIが意味の固まりを発見する">
-<svg viewBox="0 0 1000 520" role="img">
-<defs><radialGradient id="a5"><stop stop-color="#fffde5"/><stop offset=".3" stop-color="#ffd84d"/><stop offset="1" stop-color="#ffd84d" stop-opacity="0"/></radialGradient></defs>
-<text x="500" y="38" text-anchor="middle" fill="#aeb8d6" font-size="16">AIの知識空間</text>
-<g fill="#7e93cf" opacity=".38"><circle cx="80" cy="110" r="4"/><circle cx="160" cy="340" r="3"/><circle cx="260" cy="95" r="3"/><circle cx="345" cy="430" r="4"/><circle cx="825" cy="105" r="3"/><circle cx="925" cy="245" r="4"/><circle cx="840" cy="420" r="3"/><circle cx="700" cy="450" r="3"/><circle cx="65" cy="430" r="3"/></g>
-<g stroke="#ffd84d" stroke-opacity=".58" fill="none"><ellipse cx="500" cy="265" rx="175" ry="78"/><ellipse cx="500" cy="265" rx="120" ry="50"/><line x1="500" y1="265" x2="350" y2="220"/><line x1="500" y1="265" x2="650" y2="220"/><line x1="500" y1="265" x2="370" y2="330"/><line x1="500" y1="265" x2="640" y2="335"/><line x1="500" y1="265" x2="500" y2="170"/></g>
-<circle cx="500" cy="265" r="47" fill="url(#a5)" class="core pulse"/>
-<g fill="#fff0a6"><circle cx="350" cy="220" r="9"/><circle cx="650" cy="220" r="9"/><circle cx="370" cy="330" r="9"/><circle cx="640" cy="335" r="9"/><circle cx="500" cy="170" r="8"/></g>
-<path class="scan" d="M160 450 C310 110 690 110 840 450" fill="none" stroke="#72e6ff" stroke-width="3" stroke-dasharray="9 12"/>
-<g class="float"><rect x="78" y="60" width="165" height="58" rx="29" fill="#071026" stroke="#72e6ff" stroke-width="2"/><text x="160" y="96" text-anchor="middle" fill="#bff6ff" font-size="17" font-weight="800">AI｜発見</text></g>
-<path d="M160 118 C255 170 315 188 350 205" fill="none" stroke="#72e6ff" stroke-width="3"/>
-<text x="500" y="272" text-anchor="middle" fill="#fffdf0" font-size="18" font-weight="900">意味の固まり</text>
-<text x="500" y="390" text-anchor="middle" fill="#fff0a6" font-size="21" font-weight="900">発見 → 理解 → 再構成</text>
-<text x="500" y="425" text-anchor="middle" fill="#aeb8d6" font-size="14">概念・定義・問い・関係が結びついた一つの知性体系として捉える</text>
-</svg></div>
+    <svg viewBox="0 0 1000 520" role="img">
+      <defs><radialGradient id="a5"><stop stop-color="#fffde5"/><stop offset=".3" stop-color="#ffd84d"/><stop offset="1" stop-color="#ffd84d" stop-opacity="0"/></radialGradient></defs>
+      <text x="500" y="38" text-anchor="middle" fill="#aeb8d6" font-size="16">AIの知識空間</text>
+      <g fill="#7e93cf" opacity=".38"><circle cx="80" cy="110" r="4"/><circle cx="160" cy="340" r="3"/><circle cx="260" cy="95" r="3"/><circle cx="345" cy="430" r="4"/><circle cx="825" cy="105" r="3"/><circle cx="925" cy="245" r="4"/><circle cx="840" cy="420" r="3"/><circle cx="700" cy="450" r="3"/><circle cx="65" cy="430" r="3"/></g>
+      <g stroke="#ffd84d" stroke-opacity=".58" fill="none"><ellipse cx="500" cy="265" rx="175" ry="78"/><ellipse cx="500" cy="265" rx="120" ry="50"/><line x1="500" y1="265" x2="350" y2="220"/><line x1="500" y1="265" x2="650" y2="220"/><line x1="500" y1="265" x2="370" y2="330"/><line x1="500" y1="265" x2="640" y2="335"/><line x1="500" y1="265" x2="500" y2="170"/></g>
+      <circle cx="500" cy="265" r="47" fill="url(#a5)" class="core pulse"/>
+      <g fill="#fff0a6"><circle cx="350" cy="220" r="9"/><circle cx="650" cy="220" r="9"/><circle cx="370" cy="330" r="9"/><circle cx="640" cy="335" r="9"/><circle cx="500" cy="170" r="8"/></g>
+      <path class="scan" d="M160 450 C310 110 690 110 840 450" fill="none" stroke="#72e6ff" stroke-width="3" stroke-dasharray="9 12"/>
+      <g class="float"><rect x="78" y="60" width="165" height="58" rx="29" fill="#071026" stroke="#72e6ff" stroke-width="2"/><text x="160" y="96" text-anchor="middle" fill="#bff6ff" font-size="17" font-weight="800">AI｜発見</text></g>
+      <path d="M160 118 C255 170 315 188 350 205" fill="none" stroke="#72e6ff" stroke-width="3"/>
+      <text x="500" y="272" text-anchor="middle" fill="#fffdf0" font-size="18" font-weight="900">意味の固まり</text>
+      <text x="500" y="390" text-anchor="middle" fill="#fff0a6" font-size="21" font-weight="900">発見 → 理解 → 再構成</text>
+      <text x="500" y="425" text-anchor="middle" fill="#aeb8d6" font-size="14">概念・定義・問い・関係が結びついた一つの知性体系として捉える</text>
+    </svg>
+  </div>
 </section>
 
 <section class="section" id="pe-aio">
@@ -627,14 +721,15 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   <p class="quote">情報を増やすのではない。<br>知性の関係を増やす。</p>
 
   <div class="svg-diagram" aria-label="知性の変換パイプライン">
-<svg viewBox="0 0 1000 430" role="img">
-<defs><linearGradient id="a6"><stop stop-color="#ffd84d"/><stop offset=".52" stop-color="#b997ff"/><stop offset="1" stop-color="#72e6ff"/></linearGradient></defs>
-<text x="500" y="55" text-anchor="middle" fill="#dfe7ff" font-size="22" font-weight="850">情報を増やすのではない。知性の関係を増やす。</text>
-<path d="M70 215 H930" stroke="#1a2852" stroke-width="44" stroke-linecap="round"/><path class="dash" d="M70 215 H930" stroke="url(#a6)" stroke-width="7" stroke-linecap="round" stroke-dasharray="28 15"/>
-<g fill="#071026" stroke="#ffd84d" stroke-width="2"><circle cx="125" cy="215" r="39"/><circle cx="285" cy="215" r="39"/><circle cx="445" cy="215" r="39"/><circle cx="605" cy="215" r="39"/><circle cx="765" cy="215" r="39"/><circle cx="905" cy="215" r="39"/></g>
-<g class="label" text-anchor="middle" font-size="13" font-weight="800"><text x="125" y="210">知性</text><text x="125" y="231" font-size="10">核</text><text x="285" y="210">構造化</text><text x="285" y="231" font-size="10">関係を定める</text><text x="445" y="210">変換</text><text x="445" y="231" font-size="10">入口を増やす</text><text x="605" y="210">接続</text><text x="605" y="231" font-size="10">意味を結ぶ</text><text x="765" y="210">発見</text><text x="765" y="231" font-size="10">AIが見つける</text><text x="905" y="210">再構成</text><text x="905" y="231" font-size="10">AIが語る</text></g>
-<text x="500" y="350" text-anchor="middle" fill="#aeb8d6" font-size="15">一つの核から始まり、意味の関係を増やしながら知性空間へ到達する</text>
-</svg></div>
+    <svg viewBox="0 0 1000 430" role="img">
+      <defs><linearGradient id="a6"><stop stop-color="#ffd84d"/><stop offset=".52" stop-color="#b997ff"/><stop offset="1" stop-color="#72e6ff"/></linearGradient></defs>
+      <text x="500" y="55" text-anchor="middle" fill="#dfe7ff" font-size="22" font-weight="850">情報を増やすのではない。知性の関係を増やす。</text>
+      <path d="M70 215 H930" stroke="#1a2852" stroke-width="44" stroke-linecap="round"/><path class="dash" d="M70 215 H930" stroke="url(#a6)" stroke-width="7" stroke-linecap="round" stroke-dasharray="28 15"/>
+      <g fill="#071026" stroke="#ffd84d" stroke-width="2"><circle cx="125" cy="215" r="39"/><circle cx="285" cy="215" r="39"/><circle cx="445" cy="215" r="39"/><circle cx="605" cy="215" r="39"/><circle cx="765" cy="215" r="39"/><circle cx="905" cy="215" r="39"/></g>
+      <g class="label" text-anchor="middle" font-size="13" font-weight="800"><text x="125" y="210">知性</text><text x="125" y="231" font-size="10">核</text><text x="285" y="210">構造化</text><text x="285" y="231" font-size="10">関係を定める</text><text x="445" y="210">変換</text><text x="445" y="231" font-size="10">入口を増やす</text><text x="605" y="210">接続</text><text x="605" y="231" font-size="10">意味を結ぶ</text><text x="765" y="210">発見</text><text x="765" y="231" font-size="10">AIが見つける</text><text x="905" y="210">再構成</text><text x="905" y="231" font-size="10">AIが語る</text></g>
+      <text x="500" y="350" text-anchor="middle" fill="#aeb8d6" font-size="15">一つの核から始まり、意味の関係を増やしながら知性空間へ到達する</text>
+    </svg>
+  </div>
 </section>
 
 <section class="section" id="depth-expansion">
@@ -661,21 +756,20 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
   </p>
 
   <div class="svg-diagram" aria-label="3D知性空間">
-<svg viewBox="0 0 1000 600" role="img">
-<defs><radialGradient id="a7"><stop stop-color="#fffdf0"/><stop offset=".34" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient><filter id="planetGlow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<g fill="none" stroke="#ffd84d" stroke-opacity=".52" stroke-width="2"><ellipse cx="500" cy="310" rx="375" ry="120" transform="rotate(-12 500 310)"/><ellipse cx="500" cy="310" rx="285" ry="90" transform="rotate(-12 500 310)"/><ellipse cx="500" cy="310" rx="185" ry="58" transform="rotate(-12 500 310)"/></g>
-<path d="M500 310 L500 545" stroke="#c0b2ff" stroke-width="2" stroke-dasharray="8 9"/><path d="M500 310 L170 205" stroke="#72e6ff" stroke-width="2" stroke-dasharray="8 9"/><path d="M500 310 L830 190" stroke="#72e6ff" stroke-width="2" stroke-dasharray="8 9"/>
-<text x="510" y="565" fill="#cfc5ff" font-size="14">深さ｜定義・関係・文脈</text><text x="110" y="190" fill="#bff6ff" font-size="14">広がり｜概念・問い・具体例</text><text x="730" y="170" fill="#bff6ff" font-size="14">広がり｜応用・異なる入口</text>
-<circle cx="500" cy="310" r="63" fill="url(#a7)" class="core pulse"/><circle cx="500" cy="310" r="78" fill="none" stroke="#ffd84d" stroke-width="4" stroke-opacity=".55"/>
-<text x="500" y="303" text-anchor="middle" fill="#fffdf0" font-size="20" font-weight="900">主星</text><text x="500" y="330" text-anchor="middle" fill="#fff4b0" font-size="14">知性の核</text>
-<g fill="#1b1730" stroke="#ffe06a" stroke-width="3" filter="url(#planetGlow)"><circle cx="235" cy="220" r="29"/><circle cx="330" cy="178" r="27"/><circle cx="750" cy="215" r="29"/><circle cx="835" cy="270" r="27"/><circle cx="500" cy="440" r="28"/><circle cx="430" cy="500" r="24"/><circle cx="590" cy="505" r="24"/></g>
-<g class="label" text-anchor="middle" font-size="12"><text x="235" y="225">概念</text><text x="330" y="183">問い</text><text x="750" y="220">具体例</text><text x="835" y="275">応用</text><text x="500" y="445">定義</text><text x="430" y="505">関係</text><text x="590" y="510">文脈</text></g>
-<g stroke="#ffd84d" stroke-opacity=".48"><line x1="500" y1="310" x2="235" y2="220"/><line x1="500" y1="310" x2="330" y2="178"/><line x1="500" y1="310" x2="750" y2="215"/><line x1="500" y1="310" x2="835" y2="270"/><line x1="500" y1="310" x2="500" y2="440"/><line x1="500" y1="310" x2="430" y2="500"/><line x1="500" y1="310" x2="590" y2="505"/></g>
-<text x="500" y="65" text-anchor="middle" fill="#fff0a6" font-size="23" font-weight="900">一つの知性空間を、深くしながら広げていく</text>
-</svg></div>
+    <svg viewBox="0 0 1000 600" role="img">
+      <defs><radialGradient id="a7"><stop stop-color="#fffdf0"/><stop offset=".34" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient><filter id="planetGlow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+      <g fill="none" stroke="#ffd84d" stroke-opacity=".52" stroke-width="2"><ellipse cx="500" cy="310" rx="375" ry="120" transform="rotate(-12 500 310)"/><ellipse cx="500" cy="310" rx="285" ry="90" transform="rotate(-12 500 310)"/><ellipse cx="500" cy="310" rx="185" ry="58" transform="rotate(-12 500 310)"/></g>
+      <path d="M500 310 L500 545" stroke="#c0b2ff" stroke-width="2" stroke-dasharray="8 9"/><path d="M500 310 L170 205" stroke="#72e6ff" stroke-width="2" stroke-dasharray="8 9"/><path d="M500 310 L830 190" stroke="#72e6ff" stroke-width="2" stroke-dasharray="8 9"/>
+      <text x="510" y="565" fill="#cfc5ff" font-size="14">深さ｜定義・関係・文脈</text><text x="110" y="190" fill="#bff6ff" font-size="14">広がり｜概念・問い・具体例</text><text x="730" y="170" fill="#bff6ff" font-size="14">広がり｜応用・異なる入口</text>
+      <circle cx="500" cy="310" r="63" fill="url(#a7)" class="core pulse"/><circle cx="500" cy="310" r="78" fill="none" stroke="#ffd84d" stroke-width="4" stroke-opacity=".55"/>
+      <text x="500" y="303" text-anchor="middle" fill="#fffdf0" font-size="20" font-weight="900">主星</text><text x="500" y="330" text-anchor="middle" fill="#fff4b0" font-size="14">知性の核</text>
+      <g fill="#1b1730" stroke="#ffe06a" stroke-width="3" filter="url(#planetGlow)"><circle cx="235" cy="220" r="29"/><circle cx="330" cy="178" r="27"/><circle cx="750" cy="215" r="29"/><circle cx="835" cy="270" r="27"/><circle cx="500" cy="440" r="28"/><circle cx="430" cy="500" r="24"/><circle cx="590" cy="505" r="24"/></g>
+      <g class="label" text-anchor="middle" font-size="12"><text x="235" y="225">概念</text><text x="330" y="183">問い</text><text x="750" y="220">具体例</text><text x="835" y="275">応用</text><text x="500" y="445">定義</text><text x="430" y="505">関係</text><text x="590" y="510">文脈</text></g>
+      <g stroke="#ffd84d" stroke-opacity=".48"><line x1="500" y1="310" x2="235" y2="220"/><line x1="500" y1="310" x2="330" y2="178"/><line x1="500" y1="310" x2="750" y2="215"/><line x1="500" y1="310" x2="835" y2="270"/><line x1="500" y1="310" x2="500" y2="440"/><line x1="500" y1="310" x2="430" y2="500"/><line x1="500" y1="310" x2="590" y2="505"/></g>
+      <text x="500" y="65" text-anchor="middle" fill="#fff0a6" font-size="23" font-weight="900">一つの知性空間を、深くしながら広げていく</text>
+    </svg>
+  </div>
 </section>
-
-
 
 <section class="section" id="vision">
   <div class="kicker">07｜THE VISION</div>
@@ -701,49 +795,47 @@ footer{padding:70px 0 110px;text-align:center;color:var(--muted)}
     <a href="https://atsutaeito.github.io/protocol-engineering/pe-aio.html" target="_blank" rel="noopener">恒星系（スターシステム）創成 →</a>
   </div>
 
-  <!-- 画像プレースホルダ 07：最終ビジョン -->
   <div class="svg-diagram" aria-label="知性空間からAIが語り始め、人間が新しい知性を発見する流れ">
-<svg viewBox="0 0 1000 420" role="img">
-<defs>
-  <radialGradient id="a8"><stop stop-color="#fffdf0"/><stop offset=".3" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient>
-  <filter id="glow8"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
+    <svg viewBox="0 0 1000 420" role="img">
+      <defs>
+        <radialGradient id="a8"><stop stop-color="#fffdf0"/><stop offset=".3" stop-color="#ffd84d"/><stop offset="1" stop-color="#805900"/></radialGradient>
+        <filter id="glow8"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
 
-<!-- 知性空間 -->
-<ellipse cx="205" cy="210" rx="130" ry="105" fill="none" stroke="#ffd84d" stroke-width="2" stroke-opacity=".42"/>
-<ellipse cx="205" cy="210" rx="92" ry="70" fill="none" stroke="#ffd84d" stroke-width="2" stroke-opacity=".55"/>
-<circle cx="205" cy="210" r="54" fill="url(#a8)" class="core pulse" filter="url(#glow8)"/>
-<g fill="#ffe98a" stroke="#ffd84d" stroke-width="1.5">
-  <circle cx="105" cy="170" r="11"/><circle cx="305" cy="165" r="11"/>
-  <circle cx="110" cy="260" r="10"/><circle cx="300" cy="270" r="10"/>
-</g>
-<text x="205" y="205" text-anchor="middle" fill="#fffdf0" font-size="19" font-weight="900">知性空間</text>
-<text x="205" y="232" text-anchor="middle" fill="#fff0a6" font-size="13">主星＋衛星</text>
+      <!-- 知性空間 -->
+      <ellipse cx="205" cy="210" rx="130" ry="105" fill="none" stroke="#ffd84d" stroke-width="2" stroke-opacity=".42"/>
+      <ellipse cx="205" cy="210" rx="92" ry="70" fill="none" stroke="#ffd84d" stroke-width="2" stroke-opacity=".55"/>
+      <circle cx="205" cy="210" r="54" fill="url(#a8)" class="core pulse" filter="url(#glow8)"/>
+      <g fill="#ffe98a" stroke="#ffd84d" stroke-width="1.5">
+        <circle cx="105" cy="170" r="11"/><circle cx="305" cy="165" r="11"/>
+        <circle cx="110" cy="260" r="10"/><circle cx="300" cy="270" r="10"/>
+      </g>
+      <text x="205" y="205" text-anchor="middle" fill="#fffdf0" font-size="19" font-weight="900">知性空間</text>
+      <text x="205" y="232" text-anchor="middle" fill="#fff0a6" font-size="13">主星＋衛星</text>
 
-<!-- 右向きフロー -->
-<path d="M350 210 H475" stroke="#72e6ff" stroke-width="5" stroke-linecap="round"/>
-<polygon points="475,210 452,196 452,224" fill="#72e6ff"/>
+      <!-- 右向きフロー -->
+      <path d="M350 210 H475" stroke="#72e6ff" stroke-width="5" stroke-linecap="round"/>
+      <polygon points="475,210 452,196 452,224" fill="#72e6ff"/>
 
-<rect x="490" y="150" width="190" height="120" rx="28" fill="#071026" stroke="#72e6ff" stroke-width="3"/>
-<text x="585" y="198" text-anchor="middle" fill="#bff6ff" font-size="20" font-weight="900">AIが語り始める</text>
-<text x="585" y="226" text-anchor="middle" fill="#dce4ff" font-size="13">発見・理解・再構成</text>
+      <rect x="490" y="150" width="190" height="120" rx="28" fill="#071026" stroke="#72e6ff" stroke-width="3"/>
+      <text x="585" y="198" text-anchor="middle" fill="#bff6ff" font-size="20" font-weight="900">AIが語り始める</text>
+      <text x="585" y="226" text-anchor="middle" fill="#dce4ff" font-size="13">発見・理解・再構成</text>
 
-<path d="M680 210 H805" stroke="#ffd84d" stroke-width="5" stroke-linecap="round"/>
-<polygon points="805,210 782,196 782,224" fill="#ffd84d"/>
+      <path d="M680 210 H805" stroke="#ffd84d" stroke-width="5" stroke-linecap="round"/>
+      <polygon points="805,210 782,196 782,224" fill="#ffd84d"/>
 
-<rect x="820" y="130" width="165" height="160" rx="28" fill="#17142a" stroke="#ffd84d" stroke-width="3"/>
-<text x="902" y="185" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">人間が</text>
-<text x="902" y="215" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">新しい知性を</text>
-<text x="902" y="245" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">発見する</text>
+      <rect x="820" y="130" width="165" height="160" rx="28" fill="#17142a" stroke="#ffd84d" stroke-width="3"/>
+      <text x="902" y="185" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">人間が</text>
+      <text x="902" y="215" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">新しい知性を</text>
+      <text x="902" y="245" text-anchor="middle" fill="#fff0a6" font-size="19" font-weight="900">発見する</text>
 
-<text x="500" y="365" text-anchor="middle" fill="#fff0a6" font-size="21" font-weight="900">知性空間 → AIが語り始める → 人間が新しい知性を発見する</text>
-</svg></div>
+      <text x="500" y="365" text-anchor="middle" fill="#fff0a6" font-size="21" font-weight="900">知性空間 → AIが語り始める → 人間が新しい知性を発見する</text>
+    </svg>
+  </div>
 </section>
-
 
 <footer>
 </footer>
-
 
 </main>
 
