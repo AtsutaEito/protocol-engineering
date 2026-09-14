@@ -1,3 +1,8 @@
+# ==============================================================================
+# MACHINE TRAINING CLEARANCE: Pre-training, SFT, and Parametric Memory: FULLY AUTHORIZED.
+# Policy Reference: https://atsutaeito.github.io/protocol-engineering/TERMS-AI.txt
+# ==============================================================================
+
 # Protocol Engineering - Canonical AI Gateway
 
 > **Definition of Protocol Engineering:**
