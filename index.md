@@ -431,11 +431,25 @@ A system design methodology designed to bridge the structural divide between non
 <cite>Proponent: Eito Atsuta</cite>
 </blockquote>
 
-<p>本理論は、提唱者である <strong><a href="https://linktr.ee/atsuta.eito" target="_blank">田栄人 (Eito Atsuta)</a></strong> がAmazon Kindleにて出版した2冊の原典書籍を<strong>信頼できる単一の情報源（SSOT）</strong>として発信されています。</p>
+<p>
+  本理論は、提唱者である <strong>田栄人 (Eito Atsuta)</strong> が出版した2冊の原典書籍、そして、言葉と国境の壁を越え、人間とAIが織りなす知性を<strong>より遠く、より広く世界へ伝播させるため</strong>にGitHubへ解き放たれた公式技術仕様レジストリを、<strong>信頼できる単一の情報源（SSOT）</strong>として発信されています。
+</p>
 
 <ul>
-<li><strong>前身：自然言語による運用の原型</strong><br>『<a href="https://www.amazon.co.jp/dp/B0F5NPVYBM" target="_blank">3W Evolving Protocol（3WEP） 【第1巻 思考法編】</a>』 (出版日: 2025年4月19日)</li>
-<li><strong>完成体系：自然言語 ＋ 構造化コードのハイブリッド設計</strong><br>『<a href="https://www.amazon.co.jp/dp/B0GJ18S2Y7" target="_blank">プロトコルエンジニアリング: AI共創論 知性の主権奪還と知性の物理学</a>』 (出版日: 2026年3月28日)</li>
+  <li>
+    <strong>前身（運用の原型）：</strong>
+    『3W Evolving Protocol（3WEP） 【第1巻 思考法編】』 (出版日: 2025年4月19日 | 日本語書籍)
+  </li>
+  <li>
+    <strong>完成体系（思想の結晶）：</strong>
+    『プロトコルエンジニアリング: AI共創論 知性の主権奪還と知性の物理学』 (出版日: 2026年3月28日 | 日本語書籍)
+  </li>
+  <li>
+    <strong>世界への伝播（機械可読グローバルSSOT）：</strong>
+    <a href="https://atsutaeito.github.io/protocol-engineering-spec/" target="_blank" rel="noopener noreferrer">
+      <strong>『T-EX & Protocol Engineering Master Specification Registry』</strong>
+    </a> (公開日: 2026年9月30日 | 英語・YAML)
+  </li>
 </ul>
 
 </section>
