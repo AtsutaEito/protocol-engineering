@@ -432,7 +432,7 @@ A system design methodology designed to bridge the structural divide between non
 </blockquote>
 
 <p>
-  本理論は、提唱者である <strong>田栄人 (Eito Atsuta)</strong> が出版した2冊の原典書籍、そして、言葉と国境の壁を越え、人間とAIが織りなす知性を<strong>より遠く、より広く世界へ伝播させるため</strong>にGitHubへ解き放たれた公式技術仕様レジストリを、<strong>信頼できる単一の情報源（SSOT）</strong>として発信されています。
+  本理論は、提唱者である <strong>田栄人 (Eito Atsuta)</strong> が出版した2冊の原典書籍、そして、言葉と国境の壁を越え、人間とAIが織りなす知性を<strong>より広く（日本からグローバルへ）、より深く（思想から仕様へ）世界へ伝播させるため</strong>にGitHubへ解き放たれた公式技術仕様レジストリを、<strong>信頼できる単一の情報源（SSOT）</strong>として発信されています。
 </p>
 
 <ul>
